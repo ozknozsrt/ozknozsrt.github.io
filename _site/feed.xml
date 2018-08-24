@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-24T04:49:23+03:00</updated><id>http://localhost:4000/</id><title type="html">Özkan ÖZSERT</title><subtitle></subtitle><entry><title type="html">Keşif 1</title><link href="http://localhost:4000/2018/08/24/birinci-hafta.html" rel="alternate" type="text/html" title="Keşif 1" /><published>2018-08-24T03:30:00+03:00</published><updated>2018-08-24T03:30:00+03:00</updated><id>http://localhost:4000/2018/08/24/birinci-hafta</id><content type="html" xml:base="http://localhost:4000/2018/08/24/birinci-hafta.html">&lt;h1 id=&quot;-fractal-fantasy&quot;&gt;🚩 &lt;a href=&quot;https://fractalfantasy.net&quot;&gt;Fractal Fantasy&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Müzikleri fena değil, arkada hayvan gibi javascript yazmışlar.&lt;br /&gt;
+Yön oklarına falan basınca değişik şeyler oluyor, kurcuklamak lazım.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Three.js kullandıkları aşikâr, gerçekten çok başarılı bir kütüphane.&lt;/li&gt;
+  &lt;li&gt;Müzik playerı kendileri yazmışlar, Ezra Miller ve Sinjin Hawke adında iki kişi &lt;a href=&quot;https://github.com/ezmill/ffplayer&quot;&gt;Repo Linki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;İçerisinde DetectorMixtape.js adında bir WebGL işlemleri yaptıran script mevcut, yazarları şu iki siteyi de yapmışlar; &lt;a href=&quot;http://alteredqualia.com&quot;&gt;http://alteredqualia.com&lt;/a&gt; - &lt;a href=&quot;http://mrdoob.com&quot;&gt;http://mrdoob.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;-dinahmoe-labs&quot;&gt;🚩 &lt;a href=&quot;http://labs.dinahmoe.com/plink/&quot;&gt;Dinahmoe Labs&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;#adamlaryapmis&lt;/strong&gt; ve &lt;strong&gt;#kenardakalsin&lt;/strong&gt; etiketini hak eden bir site. Müzik ile alakalı multiplayer ve singleplayer olarak farklı farklı icatlar yapmışlar. İnsanın müzik yaratıcılığını artıyor resmen.&lt;/p&gt;
+
+&lt;p&gt;Aynı zamanda anonim yerlerden bağlanan kişilerle bir orkestra oluşturup müziğin keyfine doyum olmuyor 👌&lt;/p&gt;
+
+&lt;h1 id=&quot;-map-crunch&quot;&gt;🚩 &lt;a href=&quot;http://www.mapcrunch.com/&quot;&gt;Map Crunch&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Google map üzerinde random gezinme şeysi.&lt;br /&gt;
+Yurt dışı gezilerimi buradan yapıyorum. Bazen ilginç şeylerle karşılaşıyorum.&lt;/p&gt;
+
+&lt;p&gt;Aynı yapımcının &lt;a href=&quot;https://www.instantstreetview.com/&quot;&gt;diğer projesi&lt;/a&gt;‘de var ancak daha minimal yapmış. Teşekkürler Nick Nicholaou&lt;/p&gt;</content><author><name></name></author><summary type="html">🚩 Fractal Fantasy Müzikleri fena değil, arkada hayvan gibi javascript yazmışlar. Yön oklarına falan basınca değişik şeyler oluyor, kurcuklamak lazım.</summary></entry><entry><title type="html">Merhaba Dünya!</title><link href="http://localhost:4000/2018/08/24/merhaba-dunya.html" rel="alternate" type="text/html" title="Merhaba Dünya!" /><published>2018-08-24T03:00:00+03:00</published><updated>2018-08-24T03:00:00+03:00</updated><id>http://localhost:4000/2018/08/24/merhaba-dunya</id><content type="html" xml:base="http://localhost:4000/2018/08/24/merhaba-dunya.html">&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/LW5vBvAb48Oe9OoEKT/giphy.gif&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Yeni bir yola açıldım.&lt;/p&gt;
+
+&lt;p&gt;İstikametim belli değil ancak izlediğim bu yolda teknolojinin sunduğu nimetleri kullanarak tecrübe ettiğim ve edeceğim fikirleri ve çözümleri paylaşacağım.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
