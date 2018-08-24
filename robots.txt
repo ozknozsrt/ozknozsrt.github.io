@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://ozknozsrt.github.io/sitemap.xml
+Sitemap: https://ozknozsrt.github.io/feed.xml
