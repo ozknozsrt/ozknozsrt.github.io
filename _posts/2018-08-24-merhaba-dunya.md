@@ -8,4 +8,4 @@ date: 24.08.2018 03:00
 <br>
 Yeni bir yola açıldım.
 
-İstikametim belli değil ancak izlediğim bu yolda teknolojinin sunduğu nimetleri kullanarak keşfettiğim, tecrübe ettiğim ve tecrübe edeceğim fikirleri / çözümleri paylaşacağım.
+İstikametim belli değil ancak izlediğim bu yolda teknolojinin sunduğu nimetleri kullanarak keşfettiğim, tecrübe ettiğim ve edeceğim fikirleri / çözümleri paylaşacağım.
