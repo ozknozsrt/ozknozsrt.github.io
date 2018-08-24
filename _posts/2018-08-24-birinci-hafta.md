@@ -22,4 +22,4 @@ Aynı zamanda anonim yerlerden bağlanan kişilerle bir orkestra oluşturup müz
 Google map üzerinde random gezinme şeysi.  
 Yurt dışı gezilerimi buradan yapıyorum. Bazen ilginç şeylerle karşılaşıyorum.
 
-Aynı yapımcının [diğer projesi](https://www.instantstreetview.com/)'de var ancak daha minimal yapmış. Teşekkürler Nick Nicholaou
+Aynı yapımcının [diğer projesi](https://www.instantstreetview.com/) de var ancak daha minimal yapmış. Teşekkürler Nick Nicholaou
