@@ -1,4 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-24T07:58:53+03:00</updated><id>http://localhost:4000/</id><title type="html">Özkan ÖZSERT</title><subtitle></subtitle><entry><title type="html">Keşif 1</title><link href="http://localhost:4000/2018/08/24/birinci-hafta.html" rel="alternate" type="text/html" title="Keşif 1" /><published>2018-08-24T03:30:00+03:00</published><updated>2018-08-24T03:30:00+03:00</updated><id>http://localhost:4000/2018/08/24/birinci-hafta</id><content type="html" xml:base="http://localhost:4000/2018/08/24/birinci-hafta.html">&lt;h1 id=&quot;-fractal-fantasy&quot;&gt;🚩 &lt;a href=&quot;https://fractalfantasy.net&quot;&gt;Fractal Fantasy&lt;/a&gt;&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-25T19:47:33+03:00</updated><id>http://localhost:4000/</id><title type="html">Özkan ÖZSERT</title><subtitle></subtitle><entry><title type="html">Konum Çekme</title><link href="http://localhost:4000/2018/08/25/konum-cekme.html" rel="alternate" type="text/html" title="Konum Çekme" /><published>2018-08-25T19:00:00+03:00</published><updated>2018-08-25T19:00:00+03:00</updated><id>http://localhost:4000/2018/08/25/konum-cekme</id><content type="html" xml:base="http://localhost:4000/2018/08/25/konum-cekme.html">&lt;p&gt;Geolocation API’nı kullanarak kullanıcının kendi rızası ile kendi yerini bildirmesini sağlar.&lt;/p&gt;
+
+&lt;h1 id=&quot;nerelerde-kullanılır&quot;&gt;Nerelerde kullanılır?&lt;/h1&gt;
+&lt;p&gt;Kullanıcıyı bulunduğu hedeften yakın hedeflere yönlendirme, benzer hedeflere yönlendirme, bulunduğu alanı işaretleme gibi gibi bir çok yerde kullanılabilir.&lt;/p&gt;
+
+&lt;p&gt;Örneğin, projenizde fotoğraf yükleme alanı var ve fotoğrafın çekildiği yerin nereye ait olduğunu yazdırmak için Geolocation API kullanarak &lt;code class=&quot;highlighter-rouge&quot;&gt;lat&lt;/code&gt; ve &lt;code class=&quot;highlighter-rouge&quot;&gt;lng&lt;/code&gt; koordinat değerlerini çektirebilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;nasıl-kullanılır&quot;&gt;Nasıl kullanılır?&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;
+Bir buton ekliyorum&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;button&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Konum al&lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Hata mesajı için yazdırması bir div ekliyorum&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;nudge&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;display:none&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Hata: konum alınamadı.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Lat&lt;/code&gt; ve &lt;code class=&quot;highlighter-rouge&quot;&gt;Lng&lt;/code&gt; değerlerini yazabilmesi için gereken iki div ekliyorum&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;startLat&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;startLon&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Ve son olarak javascript kodlarını sayfama dahil ediyorum&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'button'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;onclick&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;startPos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nudge&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;nudge&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;showNudgeBanner&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;nudge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;display&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;block&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hideNudgeBanner&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;nudge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;display&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;none&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nudgeTimeoutId&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;showNudgeBanner&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;geoSuccess&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;hideNudgeBanner&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// We have the location, don't display banner&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;clearTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nudgeTimeoutId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// Do magic with location&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;startPos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'startLat'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;startPos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;coords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;latitude&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'startLon'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;startPos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;coords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;longitude&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;geoError&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;switch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TIMEOUT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// The user didn't accept the callout&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;showNudgeBanner&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+  &lt;span class=&quot;nb&quot;&gt;navigator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;geolocation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getCurrentPosition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;geoSuccess&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;geoError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Burada ne oluyor?&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Konumu çekmek için butona tıklandıktan sonra 5 saniye bekletiyor.&lt;/li&gt;
+  &lt;li&gt;Sonuç olumlu dönerse, bekletmeyi devre dışı bırakıp değerleri &lt;code class=&quot;highlighter-rouge&quot;&gt;#startLat&lt;/code&gt; ve &lt;code class=&quot;highlighter-rouge&quot;&gt;#startLon&lt;/code&gt; divlerine yazdırıyor.&lt;/li&gt;
+  &lt;li&gt;Ama eğer zaman aşımından sonra olumsuz dönerse &lt;code class=&quot;highlighter-rouge&quot;&gt;#nudge&lt;/code&gt; divi içine hata mesajı yazdırıyor.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Geolocation API’nı kullanarak kullanıcının kendi rızası ile kendi yerini bildirmesini sağlar.</summary></entry><entry><title type="html">Mobilde İkon Kullanımı ve Tarayıcı Sekmesi Rengi</title><link href="http://localhost:4000/2018/08/25/mobilde-ikon-kullanimi-ve-tarayici-sekmesi-rengi.html" rel="alternate" type="text/html" title="Mobilde İkon Kullanımı ve Tarayıcı Sekmesi Rengi" /><published>2018-08-25T18:00:00+03:00</published><updated>2018-08-25T18:00:00+03:00</updated><id>http://localhost:4000/2018/08/25/mobilde-ikon-kullanimi-ve-tarayici-sekmesi-rengi</id><content type="html" xml:base="http://localhost:4000/2018/08/25/mobilde-ikon-kullanimi-ve-tarayici-sekmesi-rengi.html">&lt;p&gt;Günümüz tarayıcılarında kullanıcılarla etkileşimi arttıran, ikon ve adres çubuğu rengi gibi belirli alanları özelleştirmeyi sağlayan basit ince ayarlar mevcut.&lt;/p&gt;
+
+&lt;p&gt;Web sayfamız görüntülendiğinde, tarayıcımız web sayfasının ikonunu favicon olarak çekebiliyor. Web sayfamızı mobilde incelediğimizde, aslında ikonumuzu diğer özelleştirilmiş alanlarda da göstermemiz mümkün.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tam olarak neresi oluyor bu özelleştirilmiş alan?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tarayıcı sekmesi, arkaplanda çalışan uygulamaların görüldüğü bölüm, yeni sekme sayfası açarken çıkan alan gibi bir yerleri özelleştirebiliyoruz.&lt;/p&gt;
+
+&lt;p&gt;Yalnızca modern tarayıcılarda çalışan bu özellik için &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; etiketi içine bir kaç tag eklemek yeterli.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Yüksek çözünürlüklü ikon --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;sizes=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;192x192&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Safari tarayıcısı için aynı ikonu tekrar çağır --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple-touch-icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ios-icon.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- IE tarayıcıları için --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;msapplication-square310x310logo&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon_largetile.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;İkonların boyutları 48px, 96px, 144px ve 192px olması gerekiyor.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;safari&quot;&gt;Safari&lt;/h1&gt;
+&lt;p&gt;Safari’nin kullandığı &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link&amp;gt;&lt;/code&gt; etiketinin &lt;code class=&quot;highlighter-rouge&quot;&gt;rel&lt;/code&gt; özniteliği: &lt;code class=&quot;highlighter-rouge&quot;&gt;apple-touch-icon&lt;/code&gt; olması gerekir.&lt;/p&gt;
+
+&lt;p&gt;Her boyut için farklı bir etiket kullanarak farklı tema ve görünüme sahip olan telefonların ikonu otomatik olarak yeniden boyutlandırarak çözünürlüğünü bozmak yerine aşağıdaki etiketleri kullanarak farklı görünümler için farklı boyutlarda ikonları tanıtabilirsiniz.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple-touch-icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;touch-icon-iphone.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple-touch-icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;sizes=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;76x76&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;touch-icon-ipad.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple-touch-icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;sizes=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;120x120&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;touch-icon-iphone-retina.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple-touch-icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;sizes=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;152x152&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;touch-icon-ipad-retina.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;internet-explorer-ve-windows-phone&quot;&gt;Internet Explorer ve Windows Phone&lt;/h1&gt;
+
+&lt;p&gt;Her ne kadar Türkiye pazarında fazla bir popülasyona sahip olmasa da hedef kitleniz windows phone kullanıyorsa aşağıdaki meta etiketlerini tanımlayabilirsiniz.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;msapplication-square70x70logo&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon_smalltile.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;msapplication-square150x150logo&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon_mediumtile.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;msapplication-wide310x150logo&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon_widetile.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;renkli-tarayıcı-sekmeleri&quot;&gt;Renkli tarayıcı sekmeleri&lt;/h1&gt;
+
+&lt;p&gt;Farklı &lt;code class=&quot;highlighter-rouge&quot;&gt;meta&lt;/code&gt; etiketi kullanarak, tarayıcıyı özelleştirebiliyoruz. Sadece modern tarayıcılarda çalışacaktır.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Chrome, Firefox OS ve Opera --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;theme-color&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#4285f4&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Günümüz tarayıcılarında kullanıcılarla etkileşimi arttıran, ikon ve adres çubuğu rengi gibi belirli alanları özelleştirmeyi sağlayan basit ince ayarlar mevcut.</summary></entry><entry><title type="html">Keşif 1</title><link href="http://localhost:4000/2018/08/24/birinci-hafta.html" rel="alternate" type="text/html" title="Keşif 1" /><published>2018-08-24T03:30:00+03:00</published><updated>2018-08-24T03:30:00+03:00</updated><id>http://localhost:4000/2018/08/24/birinci-hafta</id><content type="html" xml:base="http://localhost:4000/2018/08/24/birinci-hafta.html">&lt;h1 id=&quot;-fractal-fantasy&quot;&gt;🚩 &lt;a href=&quot;https://fractalfantasy.net&quot;&gt;Fractal Fantasy&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Müzikleri fena değil, arkada hayvan gibi javascript yazmışlar.&lt;br /&gt;
 Yön oklarına falan basınca değişik şeyler oluyor, kurcuklamak lazım.&lt;/p&gt;
 
@@ -17,9 +135,14 @@ Yön oklarına falan basınca değişik şeyler oluyor, kurcuklamak lazım.&lt;/
 &lt;p&gt;Google map üzerinde random gezinme şeysi.&lt;br /&gt;
 Yurt dışı gezilerimi buradan yapıyorum. Bazen ilginç şeylerle karşılaşıyorum.&lt;/p&gt;
 
-&lt;p&gt;Aynı yapımcının &lt;a href=&quot;https://www.instantstreetview.com/&quot;&gt;diğer projesi&lt;/a&gt;‘de var ancak daha minimal yapmış. Teşekkürler Nick Nicholaou&lt;/p&gt;</content><author><name></name></author><summary type="html">🚩 Fractal Fantasy Müzikleri fena değil, arkada hayvan gibi javascript yazmışlar. Yön oklarına falan basınca değişik şeyler oluyor, kurcuklamak lazım.</summary></entry><entry><title type="html">Merhaba Dünya!</title><link href="http://localhost:4000/2018/08/24/merhaba-dunya.html" rel="alternate" type="text/html" title="Merhaba Dünya!" /><published>2018-08-24T03:00:00+03:00</published><updated>2018-08-24T03:00:00+03:00</updated><id>http://localhost:4000/2018/08/24/merhaba-dunya</id><content type="html" xml:base="http://localhost:4000/2018/08/24/merhaba-dunya.html">&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/LW5vBvAb48Oe9OoEKT/giphy.gif&quot; alt=&quot;alt text&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Aynı yapımcının &lt;a href=&quot;https://www.instantstreetview.com/&quot;&gt;diğer projesi&lt;/a&gt;‘de var ancak daha minimal yapmış. Teşekkürler Nick Nicholaou&lt;/p&gt;</content><author><name></name></author><summary type="html">🚩 Fractal Fantasy Müzikleri fena değil, arkada hayvan gibi javascript yazmışlar. Yön oklarına falan basınca değişik şeyler oluyor, kurcuklamak lazım.</summary></entry><entry><title type="html">Merhaba Dünya!</title><link href="http://localhost:4000/2018/08/24/merhaba-dunya.html" rel="alternate" type="text/html" title="Merhaba Dünya!" /><published>2018-08-24T03:00:00+03:00</published><updated>2018-08-24T03:00:00+03:00</updated><id>http://localhost:4000/2018/08/24/merhaba-dunya</id><content type="html" xml:base="http://localhost:4000/2018/08/24/merhaba-dunya.html">&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/LW5vBvAb48Oe9OoEKT/giphy.gif&quot; alt=&quot;merhaba&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 Yeni bir yola açıldım.&lt;/p&gt;
 
-&lt;p&gt;İstikametim belli değil ancak izlediğim bu yolda teknolojinin sunduğu nimetleri kullanarak tecrübe ettiğim ve edeceğim fikirleri ve çözümleri paylaşacağım.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;İstikametim belli değil ancak izlediğim bu yolda teknolojinin sunduğu nimetleri kullanarak keşfettiğim, tecrübe ettiğim ve zamanla tecrübe edeceğim fikirlerin ve çözümlerin notlarını tutuyor olacağım.&lt;/p&gt;
+
+&lt;p&gt;Bu yazılar bana geriye dönüp baktığımda bana bir rota oluşturacaklar.&lt;br /&gt;
+Neden sizler de bu rotayı keşifte bulunmayasınız ki?
+&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;gray&quot; size=&quot;2&quot;&gt;Yalnız bazı konularda saçmalayabilirim, bu da bir not olarak kalsın 😁&lt;/font&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
