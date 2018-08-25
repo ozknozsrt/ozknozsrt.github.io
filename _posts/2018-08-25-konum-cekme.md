@@ -3,6 +3,8 @@ title: Konum Çekme
 date: 25.08.2018 19:00
 ---
 
+![](https://media.giphy.com/media/HzMfJIkTZgx8s/giphy.gif)  
+
 Geolocation API'nı kullanarak kullanıcının kendi rızası ile kendi yerini bildirmesini sağlar.  
 
 # Nerelerde kullanılır?
@@ -73,3 +75,12 @@ button.onclick = function() {
 1. Konumu çekmek için butona tıklandıktan sonra 5 saniye bekletiyor.
 2. Sonuç olumlu dönerse, bekletmeyi devre dışı bırakıp değerleri `#startLat` ve `#startLon` divlerine yazdırıyor.
 3. Ama eğer zaman aşımından sonra olumsuz dönerse `#nudge` divi içine hata mesajı yazdırıyor.
+
+<br><br>
+# Chrome DevTools'dan lokasyon emule etmek
+<br>
+![](https://i.hizliresim.com/dBENPn.png)  
+
+**Eğer sensör sekmesi sizde kapalıysa;**  
+
+![](https://i.hizliresim.com/zMqpa4.png)

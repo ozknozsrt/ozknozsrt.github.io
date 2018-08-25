@@ -3,6 +3,8 @@ title: Mobilde İkon Kullanımı ve Tarayıcı Sekmesi Rengi
 date: 25.08.2018 18:00
 ---
 
+![](https://media.giphy.com/media/3oGRFLswfKzceq5kLm/giphy.gif)  
+
 Günümüz tarayıcılarında kullanıcılarla etkileşimi arttıran, ikon ve adres çubuğu rengi gibi belirli alanları özelleştirmeyi sağlayan basit ince ayarlar mevcut.
 
 Web sayfamız görüntülendiğinde, tarayıcımız web sayfasının ikonunu favicon olarak çekebiliyor. Web sayfamızı mobilde incelediğimizde, aslında ikonumuzu diğer özelleştirilmiş alanlarda da göstermemiz mümkün.
