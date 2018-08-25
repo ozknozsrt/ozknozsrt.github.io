@@ -9,7 +9,7 @@ Müzikleri fena değil, arkada hayvan gibi javascript yazmışlar.
 Yön oklarına falan basınca değişik şeyler oluyor, kurcuklamak lazım.
 
 - Three.js kullandıkları aşikâr, gerçekten çok başarılı bir kütüphane.
-- Müzik playerı kendileri yazmışlar, Ezra Miller ve Sinjin Hawke adında iki kişi [Repo Linki](https://github.com/ezmill/ffplayer)
+- Müzik playerı kendileri yazmışlar, Ezra Miller ve Sinjin Hawke adında iki güzel insan. Repo için [tıklayın](https://github.com/ezmill/ffplayer) --Sinjin Hawke, müzikleri yapan producer olabilir--
 - İçerisinde DetectorMixtape.js adında bir WebGL işlemleri yaptıran script mevcut, yazarları şu iki siteyi de yapmışlar; [http://alteredqualia.com](http://alteredqualia.com) - [http://mrdoob.com](http://mrdoob.com)
 
 
@@ -22,4 +22,4 @@ Aynı zamanda anonim yerlerden bağlanan kişilerle bir orkestra oluşturup müz
 Google map üzerinde random gezinme şeysi.  
 Yurt dışı gezilerimi buradan yapıyorum. Bazen ilginç şeylerle karşılaşıyorum.
 
-Aynı yapımcının [diğer projesi](https://www.instantstreetview.com/)'de var ancak daha minimal yapmış. Teşekkürler Nick Nicholaou
+Aynı yapımcının [diğer projesi](https://www.instantstreetview.com/) de var ancak daha minimal yapmış. Teşekkürler Nick Nicholaou
