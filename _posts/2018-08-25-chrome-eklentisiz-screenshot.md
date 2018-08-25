@@ -15,10 +15,10 @@ Geçenlerde yine inspect modundayım, yanlışlıkla kendimi VSCode'da sanıp `C
 | 4   |!	  | Run snippet   |
 | 5   |>	  | Run command   |
 
-- `Open file` seçeneği kullanılabilir dosyalarda gezinmek için.  
-- `Go to line` kesin kullanırım belirli satıra gitmek için süper olur.  
-- `Go to symbol` tam olarak çözemedim ama anladığım kadarıyla css ve javascript kodlarında ilgili değişken ve fonksiyonlara gidiyor.    
-- `Run snippet` bunu daha önce kullanmamıştım ama bu özelliğinde de kullanışlı olduğunu anladım. Hemen açıklayayım;
+1. `Open file` seçeneği kullanılabilir dosyalarda gezinmek için.  
+2. `Go to line` kesin kullanırım belirli satıra gitmek için süper olur.  
+3. `Go to symbol` tam olarak çözemedim ama anladığım kadarıyla css ve javascript kodlarında ilgili değişken ve fonksiyonlara gidiyor.    
+4. `Run snippet` bunu daha önce kullanmamıştım ama bu özelliğinde de kullanışlı olduğunu anladım. Hemen açıklayayım;
 
 ### Run snippet
 
