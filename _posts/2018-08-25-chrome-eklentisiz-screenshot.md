@@ -15,10 +15,10 @@ Geçenlerde yine inspect modundayım, yanlışlıkla kendimi VSCode'da sanıp `C
 | 4   |!	  | Run snippet   |
 | 5   |>	  | Run command   |
 
-Buradan `Open file` seçeneği kullanılabilir dosyalarda gezinmek için.
-`Go to line` kesin kullanırım belirli satıra gitmek için süper olur.  
-`Go to symbol` tam olarak çözemedim ama anladığım kadarıyla css ve javascript kodlarında ilgili değişken ve fonksiyonlara gidiyor.  
-`Run snippet` bunu daha önce kullanmamıştım ama bu özelliğinde de kullanışlı olduğunu anladım. Hemen açıklayayım;
+- `Open file` seçeneği kullanılabilir dosyalarda gezinmek için.  
+- `Go to line` kesin kullanırım belirli satıra gitmek için süper olur.  
+- `Go to symbol` tam olarak çözemedim ama anladığım kadarıyla css ve javascript kodlarında ilgili değişken ve fonksiyonlara gidiyor.    
+- `Run snippet` bunu daha önce kullanmamıştım ama bu özelliğinde de kullanışlı olduğunu anladım. Hemen açıklayayım;
 
 ### Run snippet
 
@@ -32,6 +32,8 @@ Burada `+ New Snippet` diyerek içerisine; nasıl ki console kısmına bazen sü
 5 numaralı `Run Command` kısayolumuz, diğer bir kısayolu `CTRL + SHIFT + P` olan komut çalıştırma bölümü. Burada türlü tefarek olaylar dönüyor, hepsini anlatmaya gün yetmez. Siz deneyip bulursunuz onları artık, ben yolu gösterdim :)
 
 Şimdi burada `>screenshot` yazıyoruz
+
+![](https://i.hizliresim.com/aYR8RB.png)
 
 | No | Komut                        | Açıklama                                                           |
 |----| ---------------------------- | ------------------------------------------------------------------ |
