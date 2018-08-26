@@ -9,7 +9,6 @@ Mobilde aslında hover özelliği olan bir şeye dokunduktan sonra bıraktığı
 
 Stackoverflow'da çözümünü buldum.  
 
-<br>
 
 **jQuery**
 ```js
@@ -30,7 +29,7 @@ $(document.body).on("touchmove", function (event) {
     event.stopPropagation();
 });
 ```
-<br>
+
 
 **CSS** 
 ```css
