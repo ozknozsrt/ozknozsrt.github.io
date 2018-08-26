@@ -1,4 +1,131 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-25T20:04:44+03:00</updated><id>http://localhost:4000/</id><title type="html">Özkan ÖZSERT</title><subtitle></subtitle><entry><title type="html">Konum Çekme</title><link href="http://localhost:4000/2018/08/25/konum-cekme.html" rel="alternate" type="text/html" title="Konum Çekme" /><published>2018-08-25T19:00:00+03:00</published><updated>2018-08-25T19:00:00+03:00</updated><id>http://localhost:4000/2018/08/25/konum-cekme</id><content type="html" xml:base="http://localhost:4000/2018/08/25/konum-cekme.html">&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/HzMfJIkTZgx8s/giphy.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-26T20:28:16+03:00</updated><id>http://localhost:4000/</id><title type="html">Özkan ÖZSERT</title><subtitle></subtitle><entry><title type="html">Mobilde Hover Simule Etmek</title><link href="http://localhost:4000/2018/08/26/mobilde-hover-simule-etmek.html" rel="alternate" type="text/html" title="Mobilde Hover Simule Etmek" /><published>2018-08-26T18:00:00+03:00</published><updated>2018-08-26T18:00:00+03:00</updated><id>http://localhost:4000/2018/08/26/mobilde-hover-simule-etmek</id><content type="html" xml:base="http://localhost:4000/2018/08/26/mobilde-hover-simule-etmek.html">&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/26BRERwHtgJTf7rTG/giphy.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mobilde aslında hover özelliği olan bir şeye dokunduktan sonra bıraktığımızda basılı kalıyordu. Bir projemde bu özelliğin önüne geçip kullanıcıya mobil uygulama hissiyatı kazandırmak için bu sıkıntıyı çözmem gerekiyordu.&lt;/p&gt;
+
+&lt;p&gt;Stackoverflow’da çözümünü buldum.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;jQuery&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ready&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// .hover elementine dokunulduğunda o elemente hover_effect classını uygula&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.hover'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'touchstart touchend'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toggleClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'hover_effect'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ama sonra sadece yukarıdaki kodu çalıştırınca elementin üzerinde scroll yapmakta zorlandığımı farkettim ve aşağıdaki kodu da ekledim.&lt;/p&gt;
+
+&lt;p&gt;Yine &lt;code class=&quot;highlighter-rouge&quot;&gt;document.ready&lt;/code&gt; içine ekledim;&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;touchmove&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stopPropagation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.hover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;-webkit-user-select&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;/* basılı tutulduğu zaman elemanları seçili hale getirmemesi için */&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;-webkit-touch-callout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;/* iOS cihazlarda basılı tutup bir kaç saniye bekletildiğinde bağlantı hakkında info çıkartmaması için */&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.element.hover_effect&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;/* hover olduğunda olacak şeyler */&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;kaynak&quot;&gt;Kaynak&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/2851663/how-do-i-simulate-a-hover-with-a-touch-in-touch-enabled-browsers&quot;&gt;https://stackoverflow.com/questions/2851663/how-do-i-simulate-a-hover-with-a-touch-in-touch-enabled-browsers&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Chrome’da Eklentisiz Screenshot</title><link href="http://localhost:4000/2018/08/25/chrome-eklentisiz-screenshot.html" rel="alternate" type="text/html" title="Chrome'da Eklentisiz Screenshot" /><published>2018-08-25T20:50:00+03:00</published><updated>2018-08-25T20:50:00+03:00</updated><id>http://localhost:4000/2018/08/25/chrome-eklentisiz-screenshot</id><content type="html" xml:base="http://localhost:4000/2018/08/25/chrome-eklentisiz-screenshot.html">&lt;p&gt;Geçenlerde yine inspect modundayım, yanlışlıkla kendimi VSCode’da sanıp &lt;code class=&quot;highlighter-rouge&quot;&gt;CTRL + P&lt;/code&gt; yapmıştım, bir tane kutu geldi sayfanın render ettiği dosyaları gösteren.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Type ‘?’ to see aviable commands&lt;/em&gt; demiş, işime yarayabilir bir şeyler çıkar diyerek kurcuklayayım dedim.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;No&lt;/th&gt;
+      &lt;th&gt;Key&lt;/th&gt;
+      &lt;th&gt;Açıklama&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;…&lt;/td&gt;
+      &lt;td&gt;Open file&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Go to line&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;@&lt;/td&gt;
+      &lt;td&gt;Go to symbol&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;!&lt;/td&gt;
+      &lt;td&gt;Run snippet&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;&amp;gt;&lt;/td&gt;
+      &lt;td&gt;Run command&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Open file&lt;/code&gt; seçeneği kullanılabilir dosyalarda gezinmek için.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Go to line&lt;/code&gt; kesin kullanırım, belirli satıra gitmek için süper olur.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Go to symbol&lt;/code&gt; tam olarak çözemedim ama anladığım kadarıyla css ve javascript kodlarında ilgili değişken ve fonksiyonlara gidiyor.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Run snippet&lt;/code&gt; bunu daha önce kullanmamıştım ama bu özelliğinde de kullanışlı olduğunu anladım. Hemen açıklayayım;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;run-snippet&quot;&gt;Run snippet&lt;/h3&gt;
+
+&lt;p&gt;DevTools’da &lt;code class=&quot;highlighter-rouge&quot;&gt;Sources&lt;/code&gt; sekmesine geldikten sonra sol taraftaki sidebarda genellikle &lt;code class=&quot;highlighter-rouge&quot;&gt;Page&lt;/code&gt; seçili gelir. Aslında orada 5 adet sekme bulunuyor. Sidebarı genişletince veya &lt;strong&gt;»&lt;/strong&gt; ikonuna tıkladığımızda &lt;code class=&quot;highlighter-rouge&quot;&gt;Snippet&lt;/code&gt; sekmesi karşımıza çıkacak.&lt;/p&gt;
+
+&lt;p&gt;Burada &lt;code class=&quot;highlighter-rouge&quot;&gt;+ New Snippet&lt;/code&gt; diyerek içerisine; nasıl ki console kısmına bazen sürekli yazdığımız kodlar oluyor ya, hah! işte o kodları her zaman yazmayalım diye buraya “snippet” olarak ekleyebiliyoruz ve tek komutla çalıştırabiliyoruz. Çok güzel değil mi yav :)&lt;/p&gt;
+
+&lt;h3 id=&quot;geldik-asıl-olaya-eklentisiz-screenshot-nasıl-alırız-&quot;&gt;Geldik asıl olaya, eklentisiz screenshot nasıl alırız :)&lt;/h3&gt;
+
+&lt;p&gt;5 numaralı &lt;code class=&quot;highlighter-rouge&quot;&gt;Run Command&lt;/code&gt; kısayolumuz, diğer bir kısayolu &lt;code class=&quot;highlighter-rouge&quot;&gt;CTRL + SHIFT + P&lt;/code&gt; olan komut çalıştırma bölümü. Burada türlü tefarek olaylar dönüyor, hepsini anlatmaya gün yetmez. Siz deneyip bulursunuz onları artık, ben yolu gösterdim :)&lt;/p&gt;
+
+&lt;p&gt;Şimdi burada &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;screenshot&lt;/code&gt; yazıyoruz&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.hizliresim.com/aYR8RB.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;No&lt;/th&gt;
+      &lt;th&gt;Komut&lt;/th&gt;
+      &lt;th&gt;Açıklama&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Capture full size screenshot&lt;/td&gt;
+      &lt;td&gt;Ekranın baştan aşağı tam görüntüsünü alıyor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Capture node screenshot&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;CTRL + SHIFT + C&lt;/code&gt; ile seçili olan alanın görüntüsünü alıyor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;Capture screenshot&lt;/td&gt;
+      &lt;td&gt;Bulunan pencerenin monitöre göre gözüken kısmın görüntüsünü alıyor&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Harika değil mi yahu! :)&lt;/p&gt;</content><author><name></name></author><summary type="html">Geçenlerde yine inspect modundayım, yanlışlıkla kendimi VSCode’da sanıp CTRL + P yapmıştım, bir tane kutu geldi sayfanın render ettiği dosyaları gösteren.</summary></entry><entry><title type="html">Konum Çekme</title><link href="http://localhost:4000/2018/08/25/konum-cekme.html" rel="alternate" type="text/html" title="Konum Çekme" /><published>2018-08-25T19:00:00+03:00</published><updated>2018-08-25T19:00:00+03:00</updated><id>http://localhost:4000/2018/08/25/konum-cekme</id><content type="html" xml:base="http://localhost:4000/2018/08/25/konum-cekme.html">&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/HzMfJIkTZgx8s/giphy.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Geolocation API’nı kullanarak kullanıcının kendi rızası ile kendi yerini bildirmesini sağlar.&lt;/p&gt;
 
