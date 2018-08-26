@@ -9,6 +9,7 @@ Mobilde aslında hover özelliği olan bir şeye dokunduktan sonra bıraktığı
 
 Stackoverflow'da çözümünü buldum.  
 
+jQuery
 ```js
 $(document).ready(function () {
     // .hover elementine dokunulduğunda o elemente hover_effect classını uygula
@@ -18,8 +19,8 @@ $(document).ready(function () {
 });
 ```
 
-Sadece yukarıdakini ekleyince elementin üzerinde scroll yapmakta zorlandığım için aşağıdaki kodu ekledim.  
-document.ready içine ekleyin;
+Ama sonra sadece yukarıdaki kodu çalıştırınca elementin üzerinde scroll yapmakta zorlandığımı farkettim ve aşağıdaki kodu da ekledim.  
+yine `document.ready` içine ekleyin;
 
 ```js
 $(document.body).on("touchmove", function (event) {
@@ -29,8 +30,7 @@ $(document.body).on("touchmove", function (event) {
 ```
 
 
-
-
+CSS 
 ```css
 .hover {
     -webkit-user-select: none; /* basılı tutulduğu zaman elemanları seçili hale getirmemesi için */
@@ -41,8 +41,9 @@ $(document.body).on("touchmove", function (event) {
 }
 ```
 
+<br>
 
 ### Kaynak
-https://stackoverflow.com/questions/2851663/how-do-i-simulate-a-hover-with-a-touch-in-touch-enabled-browsers
+[https://stackoverflow.com/questions/2851663/how-do-i-simulate-a-hover-with-a-touch-in-touch-enabled-browsers](https://stackoverflow.com/questions/2851663/how-do-i-simulate-a-hover-with-a-touch-in-touch-enabled-browsers)
 
 
