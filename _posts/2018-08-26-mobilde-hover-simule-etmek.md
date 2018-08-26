@@ -9,7 +9,9 @@ Mobilde aslında hover özelliği olan bir şeye dokunduktan sonra bıraktığı
 
 Stackoverflow'da çözümünü buldum.  
 
-jQuery
+<br>
+
+**jQuery**
 ```js
 $(document).ready(function () {
     // .hover elementine dokunulduğunda o elemente hover_effect classını uygula
@@ -28,9 +30,9 @@ $(document.body).on("touchmove", function (event) {
     event.stopPropagation();
 });
 ```
+<br>
 
-
-CSS 
+**CSS** 
 ```css
 .hover {
     -webkit-user-select: none; /* basılı tutulduğu zaman elemanları seçili hale getirmemesi için */
