@@ -7,7 +7,7 @@ date: 26.08.2018 18:00
 
 Mobilde aslında hover özelliği olan bir şeye dokunduktan sonra bıraktığımızda basılı kalıyordu. Bir projemde bu özelliğin önüne geçip kullanıcıya mobil uygulama hissiyatı kazandırmak için bu sıkıntıyı çözmem gerekiyordu.
 
-Stackoverflow'da çözümünü buldum.  
+Stackoverflow'da çözümünü buldum. 
 
 
 **jQuery**
@@ -21,7 +21,8 @@ $(document).ready(function () {
 ```
 
 Ama sonra sadece yukarıdaki kodu çalıştırınca elementin üzerinde scroll yapmakta zorlandığımı farkettim ve aşağıdaki kodu da ekledim.  
-yine `document.ready` içine ekleyin;
+
+Yine `document.ready` içine ekledim;
 
 ```js
 $(document.body).on("touchmove", function (event) {
