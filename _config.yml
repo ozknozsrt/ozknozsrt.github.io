@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Özkan ÖZSERT
-email: 
+email: #info@ozkanozsert.com
 description: >- # this means to ignore newlines until "baseurl:"
   
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -23,6 +23,20 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ozknozsrt
 github_username:  ozknozsrt
 linkedin_username: ozkanozsert
+
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
 
 
 # Defaults
