@@ -22,7 +22,7 @@ JSX, Java gibi bir katı sınıf sistemi sunar ve geliştiricilerin JavaScript t
 ##### JSX kaynak: https://jsx.github.io
 
 # Kurulumu
-![Github linki](https://github.com/frontendbeast/list-fonts) üzerinden **List Fonts.jsx** dosyasını indirip "Applications/Adobe Photoshop [version]/Presets/Scripts" klasörünün içine atın.
+[Github linki](https://github.com/frontendbeast/list-fonts) üzerinden **List Fonts.jsx** dosyasını indirip "Applications/Adobe Photoshop [version]/Presets/Scripts" klasörünün içine atın.
 <br><br>
 # Kullanımı
 
