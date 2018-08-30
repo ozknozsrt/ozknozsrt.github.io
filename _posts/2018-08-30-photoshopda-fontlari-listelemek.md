@@ -20,11 +20,11 @@ JavaScript'in aksine, JSX statik olarak yazılmıştır ve çoğunlukla güvenli
 JSX, Java gibi bir katı sınıf sistemi sunar ve geliştiricilerin JavaScript tarafından sağlanan çok ilkel prototip tabanlı miras sistemi ile çalışmasını serbest bırakır. İfadeler ve ifadeler çoğunlukla JavaScript'e eşittir, bu yüzden JavaScript programcılarının JSX'i kullanmaya başlaması kolaydır. Kodlama kolaylaştırıcı yapmak için editörler / IDE'ler için örneğin kod tamamlama gibi dil hizmetlerine yönelik planlar da vardır.
 
 ##### JSX kaynak: https://jsx.github.io
-
-# Kurulumu
-Github linki üzerinden **List Fonts.jsx** dosyasını indirip "Applications/Adobe Photoshop [version]/Presets/Scripts" klasörünün içine atın.
 <br><br>
-# Kullanımı
+# Photoshop Scripti Kurulumu
+[Github linki](https://github.com/frontendbeast/list-fonts) üzerinden **List Fonts.jsx** dosyasını indirip "Applications/Adobe Photoshop [version]/Presets/Scripts" klasörünün içine atın.
+<br><br>
+# Photoshop Scripti Kullanımı
 
 ![](https://github.com/frontendbeast/list-fonts/raw/master/screenshots/usage.jpg?raw=true)
 
