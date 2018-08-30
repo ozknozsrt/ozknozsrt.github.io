@@ -5,6 +5,8 @@
   <meta name="google-site-verification" content="aLV21UmCtjA0eBQBadL7Os75-jYsZbrcAa107MJV52M" />
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  {%- feed_meta -%} 
-  {%- include google-analytics.html -%}
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
 </head>
