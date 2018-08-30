@@ -1,6 +1,7 @@
 --- 
 title: Photoshop'da Fontları Listelemek
 date: 30.08.2018 19:00
+image: https://github.com/frontendbeast/list-fonts/raw/master/screenshots/result.jpg?raw=true
 ---
 
 ![](https://github.com/frontendbeast/list-fonts/raw/master/screenshots/result.jpg?raw=true)
