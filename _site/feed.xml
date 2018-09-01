@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-01T17:04:11+03:00</updated><id>http://localhost:4000/</id><title type="html">Özkan ÖZSERT</title><subtitle></subtitle><entry><title type="html">Youtube Videolarından Altyazı Çekmek</title><link href="http://localhost:4000/2018/09/01/youtube-videolarinin-altyazilarini-cekme.html" rel="alternate" type="text/html" title="Youtube Videolarından Altyazı Çekmek" /><published>2018-09-01T16:00:00+03:00</published><updated>2018-09-01T16:00:00+03:00</updated><id>http://localhost:4000/2018/09/01/youtube-videolarinin-altyazilarini-cekme</id><content type="html" xml:base="http://localhost:4000/2018/09/01/youtube-videolarinin-altyazilarini-cekme.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-01T18:18:30+03:00</updated><id>http://localhost:4000/</id><title type="html">Özkan ÖZSERT</title><subtitle></subtitle><entry><title type="html">#2 - Keşif</title><link href="http://localhost:4000/2018/09/01/kesif-2.html" rel="alternate" type="text/html" title="#2 - Keşif" /><published>2018-09-01T17:20:00+03:00</published><updated>2018-09-01T17:20:00+03:00</updated><id>http://localhost:4000/2018/09/01/kesif-2</id><content type="html" xml:base="http://localhost:4000/2018/09/01/kesif-2.html">&lt;p&gt;&lt;img src=&quot;/assets/images/02-kesif.png&quot; width=&quot;200&quot; style=&quot;margin:auto; display:block&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/images/logo-front-end-performance-checklist.jpg&quot; align=&quot;left&quot; width=&quot;100&quot; style=&quot;margin-right:15px&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;front-end-performance-checklist&quot;&gt;&lt;a href=&quot;https://github.com/thedaviddias/Front-End-Performance-Checklist&quot;&gt;Front-End-Performance-Checklist&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://frontendchecklist.io&quot;&gt;frontendchecklist.io&lt;/a&gt; kurucusu olduğu &lt;a href=&quot;https://github.com/thedaviddias&quot;&gt;thedaviddias&lt;/a&gt;‘ın yeni derlediği fakat henüz web sitesinden yayına almadığı; web site performansına yönelik güncel github reposu.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://css-tricks.com/wp-content/uploads/2018/08/shape-outside.jpg&quot; align=&quot;right&quot; width=&quot;100&quot; height=&quot;90&quot; style=&quot;margin-left:15px&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;css-shape-editors&quot;&gt;&lt;a href=&quot;https://css-tricks.com/css-shape-editors/&quot;&gt;CSS Shape Editors&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Firefox 62’de image’in shape-outside’ı ile oynamaya imkan tanıyan sahip olduğu inspect modu sayesinde görselle yanaşık yazılarda okunmasını kolaylaştırmaya ve yerleşimini oynamanaza olanak sağlayan dahili plugin.&lt;/p&gt;
+
+&lt;p&gt;Henüz Chrome’da yok fakat onun için ek &lt;a href=&quot;https://chrome.google.com/webstore/detail/css-shapes-editor/nenndldnbcncjmeacmnondmkkfedmgmp&quot;&gt;plugin&lt;/a&gt; mevcutmuş. Chris, Firefox’a katkıda bulunan Razvan Caliman’a teşekkürde bulunmuş.&lt;/p&gt;
+
+&lt;p&gt;Hali hazırda bulunan online shape generator için de &lt;a href=&quot;https://bennettfeely.com/clippy/&quot;&gt;Clippy&lt;/a&gt; adında bir tool mevcut. Bilmeyenler deneyebilir, clip path oluşturmak için harika bir tooldur.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.hizliresim.com/yqDj60.png&quot; align=&quot;left&quot; width=&quot;100&quot; style=&quot;margin-right:15px&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;progressive-tooling&quot;&gt;&lt;a href=&quot;https://progressivetooling.com/&quot;&gt;Progressive Tooling&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Sayfa performansını iyileştirmek için kullanılabilecek, üçüncü parti araçların listesinin bulunduğu web sitesi. &lt;a href=&quot;https://github.com/GoogleChromeLabs&quot;&gt;GoogleChromeLabs&lt;/a&gt; topluluğu tarafından yapılmış.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.hizliresim.com/g6GbRR.png&quot; align=&quot;right&quot; width=&quot;100&quot; style=&quot;margin-left:15px&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;make-my-persona&quot;&gt;&lt;a href=&quot;https://www.hubspot.com/make-my-persona&quot;&gt;Make My Persona&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Kendi personalarınızı oluşturabileceğiniz Hubspot’un muazzam persona toolkiti. Gerçekten muazzam, deneyin :)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ufak-tefek&quot;&gt;Ufak tefek&lt;/h3&gt;
+
+&lt;h4 id=&quot;make-my-persona-1&quot;&gt;&lt;a href=&quot;https://www.hubspot.com/make-my-persona&quot;&gt;Make My Persona&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Lazım oldukça açıp kullandığım, linkleri slug-url’e çeviren bir araç&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;title-case&quot;&gt;&lt;a href=&quot;https://titlecase.com/&quot;&gt;Title Case&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Adının Title Case olduğuna bakmayın, farklı methodlarda kullanılan case generateleri mevcut.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/02-kesif.png" /></entry><entry><title type="html">Youtube Videolarından Altyazı Çekmek</title><link href="http://localhost:4000/2018/09/01/youtube-videolarinin-altyazilarini-cekme.html" rel="alternate" type="text/html" title="Youtube Videolarından Altyazı Çekmek" /><published>2018-09-01T16:00:00+03:00</published><updated>2018-09-01T16:00:00+03:00</updated><id>http://localhost:4000/2018/09/01/youtube-videolarinin-altyazilarini-cekme</id><content type="html" xml:base="http://localhost:4000/2018/09/01/youtube-videolarinin-altyazilarini-cekme.html">&lt;blockquote&gt;
   &lt;p&gt;Aslında altyazıları “.srt” olarak gayet güzel şekilde çeken generatorler mevcut fakat aşağıdaki kodlarda, pencerenin farklı bir persektifinden bakmak için derlediğim bir yazı oldu.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -102,20 +155,7 @@ Youtube’un videolar için kullandığı “captions-text” classı kullandı�
 
 &lt;p&gt;Photoshop’da yapılan tasarım için kullanılan fontları listelemenize yarayabilecek küçük bir jsx dosyası.&lt;/p&gt;
 
-&lt;h2 id=&quot;jsx-nedir&quot;&gt;JSX Nedir?&lt;/h2&gt;
-&lt;p&gt;JSX, modern web tarayıcılarında çalışmak üzere tasarlanmış, statik olarak yazılmış, nesne yönelimli bir programlama dilidir. DeNA’da bir araştırma projesi olarak geliştirilmekte olan dil aşağıdaki özelliklere sahiptir.&lt;/p&gt;
-
-&lt;h3 id=&quot;daha-hızlı&quot;&gt;Daha hızlı&lt;/h3&gt;
-&lt;p&gt;JSX, kaynak kodunu JavaScript’e derlerken optimizasyon gerçekleştirir. Oluşturulan kod, doğrudan JavaScript’te yazılan eşdeğer bir koddan daha hızlı çalışır. Kazanç değişebilir, ancak Box2D gibi optimize edilmiş JavaScript kütüphaneleri bile JSX’e aktarıldığında daha hızlı olur ( iOS 5.1’de% 12 daha hızlı, Android 2.3’te% 29 daha hızlı ).&lt;/p&gt;
-
-&lt;h3 id=&quot;daha-güvenli&quot;&gt;Daha güvenli&lt;/h3&gt;
-&lt;p&gt;JavaScript’in aksine, JSX statik olarak yazılmıştır ve çoğunlukla güvenlidir. JSX kullanılarak geliştirilirken uygulamaların kalitesi yükselir, çünkü derleme sürecinde birçok hata yakalanır. Ayrıca derleyici düzeyinde hata ayıklama özellikleri de sunar.&lt;/p&gt;
-
-&lt;h3 id=&quot;daha-kolay&quot;&gt;Daha kolay&lt;/h3&gt;
-&lt;p&gt;JSX, Java gibi bir katı sınıf sistemi sunar ve geliştiricilerin JavaScript tarafından sağlanan çok ilkel prototip tabanlı miras sistemi ile çalışmasını serbest bırakır. İfadeler ve ifadeler çoğunlukla JavaScript’e eşittir, bu yüzden JavaScript programcılarının JSX’i kullanmaya başlaması kolaydır. Kodlama kolaylaştırıcı yapmak için editörler / IDE’ler için örneğin kod tamamlama gibi dil hizmetlerine yönelik planlar da vardır.&lt;/p&gt;
-
-&lt;h5 id=&quot;jsx-kaynak-httpsjsxgithubio&quot;&gt;JSX kaynak: https://jsx.github.io&lt;/h5&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h1 id=&quot;photoshop-scripti-kurulumu&quot;&gt;Photoshop Scripti Kurulumu&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/frontendbeast/list-fonts&quot;&gt;Github linki&lt;/a&gt; üzerinden &lt;strong&gt;List Fonts.jsx&lt;/strong&gt; dosyasını indirip “Applications/Adobe Photoshop [version]/Presets/Scripts” klasörünün içine atın.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -379,7 +419,13 @@ Ve son olarak javascript kodlarını sayfama dahil ediyorum&lt;/p&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Chrome, Firefox OS ve Opera --&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;theme-color&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#4285f4&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Keşif 1</title><link href="http://localhost:4000/2018/08/24/birinci-hafta.html" rel="alternate" type="text/html" title="Keşif 1" /><published>2018-08-24T03:30:00+03:00</published><updated>2018-08-24T03:30:00+03:00</updated><id>http://localhost:4000/2018/08/24/birinci-hafta</id><content type="html" xml:base="http://localhost:4000/2018/08/24/birinci-hafta.html">&lt;h1 id=&quot;-fractal-fantasy&quot;&gt;🚩 &lt;a href=&quot;https://fractalfantasy.net&quot;&gt;Fractal Fantasy&lt;/a&gt;&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">#1 - Keşif</title><link href="http://localhost:4000/2018/08/24/1-kesif.html" rel="alternate" type="text/html" title="#1 - Keşif" /><published>2018-08-24T03:30:00+03:00</published><updated>2018-08-24T03:30:00+03:00</updated><id>http://localhost:4000/2018/08/24/1-kesif</id><content type="html" xml:base="http://localhost:4000/2018/08/24/1-kesif.html">&lt;p&gt;&lt;img src=&quot;/assets/images/01-kesif.png&quot; width=&quot;200&quot; style=&quot;margin:auto; display:block&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;-fractal-fantasy&quot;&gt;🚩 &lt;a href=&quot;https://fractalfantasy.net&quot;&gt;Fractal Fantasy&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Müzikleri fena değil, arkada hayvan gibi javascript yazmışlar.&lt;br /&gt;
 Yön oklarına falan basınca değişik şeyler oluyor, kurcuklamak lazım.&lt;/p&gt;
 
@@ -398,7 +444,7 @@ Yön oklarına falan basınca değişik şeyler oluyor, kurcuklamak lazım.&lt;/
 &lt;p&gt;Google map üzerinde random gezinme şeysi.&lt;br /&gt;
 Yurt dışı gezilerimi buradan yapıyorum. Bazen ilginç şeylerle karşılaşıyorum.&lt;/p&gt;
 
-&lt;p&gt;Aynı yapımcının &lt;a href=&quot;https://www.instantstreetview.com/&quot;&gt;diğer projesi&lt;/a&gt; de var ancak daha minimal yapmış. Teşekkürler Nick Nicholaou&lt;/p&gt;</content><author><name></name></author><summary type="html">🚩 Fractal Fantasy Müzikleri fena değil, arkada hayvan gibi javascript yazmışlar. Yön oklarına falan basınca değişik şeyler oluyor, kurcuklamak lazım.</summary></entry><entry><title type="html">Merhaba Dünya!</title><link href="http://localhost:4000/2018/08/24/merhaba-dunya.html" rel="alternate" type="text/html" title="Merhaba Dünya!" /><published>2018-08-24T03:00:00+03:00</published><updated>2018-08-24T03:00:00+03:00</updated><id>http://localhost:4000/2018/08/24/merhaba-dunya</id><content type="html" xml:base="http://localhost:4000/2018/08/24/merhaba-dunya.html">&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/LW5vBvAb48Oe9OoEKT/giphy.gif&quot; alt=&quot;merhaba&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Aynı yapımcının &lt;a href=&quot;https://www.instantstreetview.com/&quot;&gt;diğer projesi&lt;/a&gt; de var ancak daha minimal yapmış. Teşekkürler Nick Nicholaou&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/01-kesif.png" /></entry><entry><title type="html">Merhaba Dünya!</title><link href="http://localhost:4000/2018/08/24/merhaba-dunya.html" rel="alternate" type="text/html" title="Merhaba Dünya!" /><published>2018-08-24T03:00:00+03:00</published><updated>2018-08-24T03:00:00+03:00</updated><id>http://localhost:4000/2018/08/24/merhaba-dunya</id><content type="html" xml:base="http://localhost:4000/2018/08/24/merhaba-dunya.html">&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/LW5vBvAb48Oe9OoEKT/giphy.gif&quot; alt=&quot;merhaba&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
 Yeni bir yola açıldım.&lt;/p&gt;
