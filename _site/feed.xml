@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-01T18:18:30+03:00</updated><id>http://localhost:4000/</id><title type="html">Özkan ÖZSERT</title><subtitle></subtitle><entry><title type="html">#2 - Keşif</title><link href="http://localhost:4000/2018/09/01/kesif-2.html" rel="alternate" type="text/html" title="#2 - Keşif" /><published>2018-09-01T17:20:00+03:00</published><updated>2018-09-01T17:20:00+03:00</updated><id>http://localhost:4000/2018/09/01/kesif-2</id><content type="html" xml:base="http://localhost:4000/2018/09/01/kesif-2.html">&lt;p&gt;&lt;img src=&quot;/assets/images/02-kesif.png&quot; width=&quot;200&quot; style=&quot;margin:auto; display:block&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-09T18:07:30+03:00</updated><id>http://localhost:4000/</id><title type="html">Özkan ÖZSERT</title><subtitle></subtitle><entry><title type="html">#3 - Keşif</title><link href="http://localhost:4000/2018/09/09/kesif-3.html" rel="alternate" type="text/html" title="#3 - Keşif" /><published>2018-09-09T16:20:00+03:00</published><updated>2018-09-09T16:20:00+03:00</updated><id>http://localhost:4000/2018/09/09/kesif-3</id><content type="html" xml:base="http://localhost:4000/2018/09/09/kesif-3.html">&lt;p&gt;&lt;img src=&quot;/assets/images/03-kesif.png&quot; width=&quot;200&quot; style=&quot;margin:auto; display:block&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;web-sitenizde-zıplayan-kaydırma&quot;&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2018/08/scroll-bouncing-websites/&quot;&gt;Web sitenizde zıplayan kaydırma&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Bu yazıda William Lim, scroll bouncing etkisini ve farklı tarayıcılarda nasıl çalıştığını açıklamış. Özellikle ios tabanlı tarayıcılarda zıplamayı önlemek  için kullanılabilecek bir kaç farklı trickden bahsetmiş.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;css-hap-yazısı--css-scroll-snap&quot;&gt;&lt;a href=&quot;https://medium.com/@muratdogan/css-hap-yaz%C4%B1s%C4%B1-css-scroll-snap-9378473bdd8f&quot;&gt;CSS hap yazısı : CSS Scroll Snap&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Murat Doğan arkadaşımız bizlere CSS’in yeni özelliği olan Scroll Snapin sunduğu nimetlerinden bahsetmiş. Sonraki bölümlerde bu özelliği kullanarak bir kaç örnek yapabilirim. Çünkü ilgi çekici :)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;meetup&quot;&gt;Meetup&lt;/h3&gt;
+&lt;h4 id=&quot;geçmiş-meetup&quot;&gt;Geçmiş Meetup&lt;/h4&gt;
+&lt;h4 id=&quot;yazılımcılar-için-uzaktan-çalışma-fırsatları&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ZsLekH068tY&amp;amp;t&quot;&gt;Yazılımcılar için uzaktan çalışma fırsatları&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Devnot Yazılımcı Buluşmaları adına &lt;a href=&quot;(https://twitter.com/umutluoglu)&quot;&gt;Uğur Umutluoğlu&lt;/a&gt; hocamızın düzenlediği harika bir etkinlikti. Konuşmacı olan &lt;a href=&quot;(https://twitter.com/ahmetkakici)&quot;&gt;Ahmet KAKICI&lt;/a&gt; ve &lt;a href=&quot;(https://twitter.com/ermankuplu)&quot;&gt;Erman KÜPLÜ&lt;/a&gt; uzaktan çalışmak ile ilgili bizlerle güzel deneyimlerini paylaştılar.&lt;/p&gt;
+
+&lt;p&gt;Etkinlik sırasında canlı yayın için video alınmış. İlgili videoya başlıktan ulaşabilirsiniz&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;gelecek-meetuplar&quot;&gt;Gelecek Meetuplar&lt;/h4&gt;
+
+&lt;h4 id=&quot;flutter-study-jam&quot;&gt;&lt;a href=&quot;https://www.meetup.com/tr-TR/GDGIstanbul/events/254440224/&quot;&gt;Flutter Study Jam&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Google’ın native uygulamalar için ürettiği &lt;a href=&quot;https://flutter.io/&quot;&gt;Flutter&lt;/a&gt; hakkında bilgi sahibi olmak için GDG İstanbul’un düzenlediği güzel bir etkinlik.&lt;/p&gt;
+
+&lt;h4 id=&quot;geleceğin-teknolojisi-blazor-ve-vsts-uygulamaları&quot;&gt;&lt;a href=&quot;https://www.meetup.com/tr-TR/Istanbul-Windows-Development-Meetup/events/253520782/&quot;&gt;Geleceğin Teknolojisi Blazor ve VSTS Uygulamaları&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;VSTS ve Blazor uygulamaları hakkında teknik bilgi sahibi olmak için güzel bir etkinlik&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;kenardakalsin&quot;&gt;#kenardakalsin&lt;/h3&gt;
+
+&lt;h4 id=&quot;2000-slack-chat-grubu-ve-toplulukları&quot;&gt;&lt;a href=&quot;https://standuply.com/slack-chat-groups&quot;&gt;2000 Slack Chat Grubu ve Toplulukları&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Siteye girdiğimizde düzenli bir şekilde kategorilendirilmiş fazlaca slack grubu mevcut. Kısacası herkes için slack grubu var burada.&lt;/p&gt;
+
+&lt;p&gt;Hatta kategorilendirme şekli çok iyimiş, şöyle ki:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Product Talks - 186&lt;/li&gt;
+  &lt;li&gt;IT Talks - 278&lt;/li&gt;
+  &lt;li&gt;Programming Talks - 251&lt;/li&gt;
+  &lt;li&gt;Marketing Talks - 35&lt;/li&gt;
+  &lt;li&gt;Finance Talks - 145&lt;/li&gt;
+  &lt;li&gt;Hardware Talks - 42&lt;/li&gt;
+  &lt;li&gt;Miscellaneous - 326&lt;/li&gt;
+  &lt;li&gt;Local Talks - 730&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;renk-arama-motoru&quot;&gt;&lt;a href=&quot;https://picular.co/&quot;&gt;Renk Arama Motoru&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Renk için arama motoru yapmışlar. Örnek olarak arama kutusuna “spring” yazınca bahar ile alakalı görselleri Google’dan çekerek, görseldeki yoğun olan rengi HEX kodu olarak bize veriyor.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;chrome-eklentileri&quot;&gt;Chrome Eklentileri&lt;/h3&gt;
+
+&lt;h4 id=&quot;️-loom---ekran-kaydedici-webcam-ile&quot;&gt;&lt;a href=&quot;https://www.useloom.com&quot;&gt;🕸️ Loom - Ekran kaydedici (webcam ile)&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;️️️️-grammarly---i̇ngilizce-gramer-düzeltici&quot;&gt;️&lt;a href=&quot;https://www.grammarly.com/&quot;&gt;️️🕸️ Grammarly - İngilizce gramer düzeltici&lt;/a&gt;&lt;/h4&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/03-kesif.png" /></entry><entry><title type="html">#2 - Keşif</title><link href="http://localhost:4000/2018/09/01/kesif-2.html" rel="alternate" type="text/html" title="#2 - Keşif" /><published>2018-09-01T17:20:00+03:00</published><updated>2018-09-01T17:20:00+03:00</updated><id>http://localhost:4000/2018/09/01/kesif-2</id><content type="html" xml:base="http://localhost:4000/2018/09/01/kesif-2.html">&lt;p&gt;&lt;img src=&quot;/assets/images/02-kesif.png&quot; width=&quot;200&quot; style=&quot;margin:auto; display:block&quot; /&gt;
 &lt;br /&gt;&lt;/p&gt;
 &lt;hr /&gt;
 
