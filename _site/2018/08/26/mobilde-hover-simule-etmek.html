@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Mobilde Hover Simule Etmek | Özkan ÖZSERT</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Mobilde Hover Simule Etmek" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/2018/08/26/mobilde-hover-simule-etmek.html" />
+<meta property="og:url" content="http://localhost:4000/2018/08/26/mobilde-hover-simule-etmek.html" />
+<meta property="og:site_name" content="Özkan ÖZSERT" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-26T18:00:00+03:00" />
+<meta name="google-site-verification" content="aLV21UmCtjA0eBQBadL7Os75-jYsZbrcAa107MJV52M" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"http://localhost:4000/2018/08/26/mobilde-hover-simule-etmek.html","dateModified":"2018-08-26T18:00:00+03:00","datePublished":"2018-08-26T18:00:00+03:00","headline":"Mobilde Hover Simule Etmek","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/08/26/mobilde-hover-simule-etmek.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Özkan ÖZSERT" /><script>
+if(!(window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1")) {
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-124889092-1', 'auto');
+  ga('send', 'pageview');
+}
+</script>
+  
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Özkan ÖZSERT</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Mobilde Hover Simule Etmek</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-08-26T18:00:00+03:00" itemprop="datePublished">
+Ağustos
+  
+26,
+2018
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><img src="https://media.giphy.com/media/26BRERwHtgJTf7rTG/giphy.gif" alt="" /></p>
+
+<p>Mobilde aslında hover özelliği olan bir şeye dokunduktan sonra bıraktığımızda basılı kalıyordu. Bir projemde bu özelliğin önüne geçip kullanıcıya mobil uygulama hissiyatı kazandırmak için bu sıkıntıyı çözmem gerekiyordu.</p>
+
+<p>Stackoverflow’da çözümünü buldum.</p>
+
+<p><strong>jQuery</strong></p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// .hover elementine dokunulduğunda o elemente hover_effect classını uygula</span>
+    <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">.hover</span><span class="dl">'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">touchstart touchend</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">toggleClass</span><span class="p">(</span><span class="dl">'</span><span class="s1">hover_effect</span><span class="dl">'</span><span class="p">);</span>
+    <span class="p">});</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>Ama sonra sadece yukarıdaki kodu çalıştırınca elementin üzerinde scroll yapmakta zorlandığımı farkettim ve aşağıdaki kodu da ekledim.</p>
+
+<p>Yine <code class="language-plaintext highlighter-rouge">document.ready</code> içine ekledim;</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">"</span><span class="s2">touchmove</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">event</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">();</span>
+    <span class="nx">event</span><span class="p">.</span><span class="nx">stopPropagation</span><span class="p">();</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p><strong>CSS</strong></p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.hover</span> <span class="p">{</span>
+    <span class="nl">-webkit-user-select</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span> <span class="c">/* basılı tutulduğu zaman elemanları seçili hale getirmemesi için */</span>
+    <span class="nl">-webkit-touch-callout</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span> <span class="c">/* iOS cihazlarda basılı tutup bir kaç saniye bekletildiğinde bağlantı hakkında info çıkartmaması için */</span>
+<span class="p">}</span>
+<span class="nc">.element.hover_effect</span> <span class="p">{</span>
+    <span class="c">/* hover olduğunda olacak şeyler */</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><br /></p>
+
+<h3 id="kaynak">Kaynak</h3>
+<p><a href="https://stackoverflow.com/questions/2851663/how-do-i-simulate-a-hover-with-a-touch-in-touch-enabled-browsers">https://stackoverflow.com/questions/2851663/how-do-i-simulate-a-hover-with-a-touch-in-touch-enabled-browsers</a></p>
+
+
+  </div><a class="u-url" href="/2018/08/26/mobilde-hover-simule-etmek.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Özkan ÖZSERT</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Özkan ÖZSERT</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/ozknozsrt"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">ozknozsrt</span></a></li><li><a href="https://www.linkedin.com/in/ozkanozsert"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">ozkanozsert</span></a></li><li><a href="https://twitter.com/ozknozsrt"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">ozknozsrt</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

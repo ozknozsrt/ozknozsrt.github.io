@@ -1,0 +1,91 @@
+I"�<p>Geçenlerde yine inspect modundayım, yanlışlıkla kendimi VSCode’da sanıp <code class="language-plaintext highlighter-rouge">CTRL + P</code> yapmıştım, bir tane kutu geldi sayfanın render ettiği dosyaları gösteren.</p>
+
+<p><em>Type ‘?’ to see aviable commands</em> demiş, işime yarayabilir bir şeyler çıkar diyerek kurcuklayayım dedim.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>No</th>
+      <th>Key</th>
+      <th>Açıklama</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>…</td>
+      <td>Open file</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>:</td>
+      <td>Go to line</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>@</td>
+      <td>Go to symbol</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>!</td>
+      <td>Run snippet</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>&gt;</td>
+      <td>Run command</td>
+    </tr>
+  </tbody>
+</table>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">Open file</code> seçeneği kullanılabilir dosyalarda gezinmek için.</li>
+  <li><code class="language-plaintext highlighter-rouge">Go to line</code> kesin kullanırım, belirli satıra gitmek için süper olur.</li>
+  <li><code class="language-plaintext highlighter-rouge">Go to symbol</code> tam olarak çözemedim ama anladığım kadarıyla css ve javascript kodlarında ilgili değişken ve fonksiyonlara gidiyor.</li>
+  <li><code class="language-plaintext highlighter-rouge">Run snippet</code> bunu daha önce kullanmamıştım ama bu özelliğinde de kullanışlı olduğunu anladım. Hemen açıklayayım;</li>
+</ol>
+
+<h3 id="run-snippet">Run snippet</h3>
+
+<p>DevTools’da <code class="language-plaintext highlighter-rouge">Sources</code> sekmesine geldikten sonra sol taraftaki sidebarda genellikle <code class="language-plaintext highlighter-rouge">Page</code> seçili gelir. Aslında orada 5 adet sekme bulunuyor. Sidebarı genişletince veya <strong>»</strong> ikonuna tıkladığımızda <code class="language-plaintext highlighter-rouge">Snippet</code> sekmesi karşımıza çıkacak.</p>
+
+<p>Burada <code class="language-plaintext highlighter-rouge">+ New Snippet</code> diyerek içerisine; nasıl ki console kısmına bazen sürekli yazdığımız kodlar oluyor ya, hah! işte o kodları her zaman yazmayalım diye buraya “snippet” olarak ekleyebiliyoruz ve tek komutla çalıştırabiliyoruz. Çok güzel değil mi yav :)</p>
+
+<h3 id="geldik-asıl-olaya-eklentisiz-screenshot-nasıl-alırız-">Geldik asıl olaya, eklentisiz screenshot nasıl alırız :)</h3>
+
+<p>5 numaralı <code class="language-plaintext highlighter-rouge">Run Command</code> kısayolumuz, diğer bir kısayolu <code class="language-plaintext highlighter-rouge">CTRL + SHIFT + P</code> olan komut çalıştırma bölümü. Burada türlü tefarek olaylar dönüyor, hepsini anlatmaya gün yetmez. Siz deneyip bulursunuz onları artık, ben yolu gösterdim :)</p>
+
+<p>Şimdi burada <code class="language-plaintext highlighter-rouge">&gt;screenshot</code> yazıyoruz</p>
+
+<p><img src="https://i.hizliresim.com/aYR8RB.png" alt="" /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>No</th>
+      <th>Komut</th>
+      <th>Açıklama</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Capture full size screenshot</td>
+      <td>Ekranın baştan aşağı tam görüntüsünü alıyor</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Capture node screenshot</td>
+      <td><code class="language-plaintext highlighter-rouge">CTRL + SHIFT + C</code> ile seçili olan alanın görüntüsünü alıyor</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Capture screenshot</td>
+      <td>Bulunan pencerenin monitöre göre gözüken kısmın görüntüsünü alıyor</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Harika değil mi yahu! :)</p>
+:ET

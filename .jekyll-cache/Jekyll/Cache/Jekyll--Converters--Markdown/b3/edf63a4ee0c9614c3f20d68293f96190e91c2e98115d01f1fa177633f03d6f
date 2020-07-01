@@ -1,0 +1,27 @@
+I"<p><img src="/assets/images/01-kesif.png" width="200" style="margin:auto; display:block" />
+<br /></p>
+<hr />
+
+<p><br /></p>
+
+<h1 id="-fractal-fantasy">🚩 <a href="https://fractalfantasy.net">Fractal Fantasy</a></h1>
+<p>Müzikleri fena değil, arkada hayvan gibi javascript yazmışlar.<br />
+Yön oklarına falan basınca değişik şeyler oluyor, kurcuklamak lazım.</p>
+
+<ul>
+  <li>Three.js kullandıkları aşikâr, gerçekten çok başarılı bir kütüphane.</li>
+  <li>Müzik playerı kendileri yazmışlar, Ezra Miller ve Sinjin Hawke adında iki güzel insan. Repo için <a href="https://github.com/ezmill/ffplayer">tıklayın</a> –Sinjin Hawke, müzikleri yapan producer olabilir–</li>
+  <li>İçerisinde DetectorMixtape.js adında bir WebGL işlemleri yaptıran script mevcut, yazarları şu iki siteyi de yapmışlar; <a href="http://alteredqualia.com">http://alteredqualia.com</a> - <a href="http://mrdoob.com">http://mrdoob.com</a></li>
+</ul>
+
+<h1 id="-dinahmoe-labs">🚩 <a href="http://labs.dinahmoe.com/plink/">Dinahmoe Labs</a></h1>
+<p><strong>#adamlaryapmis</strong> ve <strong>#kenardakalsin</strong> etiketini hak eden bir site. Müzik ile alakalı multiplayer ve singleplayer olarak farklı farklı icatlar yapmışlar. İnsanın müzik yaratıcılığını artıyor resmen.</p>
+
+<p>Aynı zamanda anonim yerlerden bağlanan kişilerle bir orkestra oluşturup müziğin keyfine doyum olmuyor 👌</p>
+
+<h1 id="-map-crunch">🚩 <a href="http://www.mapcrunch.com/">Map Crunch</a></h1>
+<p>Google map üzerinde random gezinme şeysi.<br />
+Yurt dışı gezilerimi buradan yapıyorum. Bazen ilginç şeylerle karşılaşıyorum.</p>
+
+<p>Aynı yapımcının <a href="https://www.instantstreetview.com/">diğer projesi</a> de var ancak daha minimal yapmış. Teşekkürler Nick Nicholaou</p>
+:ET

@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-01T16:52:38+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Özkan ÖZSERT</title><subtitle></subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/07/01/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-07-01T16:49:47+03:00</published><updated>2020-07-01T16:49:47+03:00</updated><id>http://localhost:4000/jekyll/update/2020/07/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/07/01/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">#3 - Keşif</title><link href="http://localhost:4000/2018/09/09/kesif-3.html" rel="alternate" type="text/html" title="#3 - Keşif" /><published>2018-09-09T16:20:00+03:00</published><updated>2018-09-09T16:20:00+03:00</updated><id>http://localhost:4000/2018/09/09/kesif-3</id><content type="html" xml:base="http://localhost:4000/2018/09/09/kesif-3.html">&lt;p&gt;&lt;img src=&quot;/assets/images/03-kesif.png&quot; width=&quot;200&quot; style=&quot;margin:auto; display:block&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;web-sitenizde-zıplayan-kaydırma&quot;&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2018/08/scroll-bouncing-websites/&quot;&gt;Web sitenizde zıplayan kaydırma&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Bu yazıda William Lim, scroll bouncing etkisini ve farklı tarayıcılarda nasıl çalıştığını açıklamış. Özellikle ios tabanlı tarayıcılarda zıplamayı önlemek  için kullanılabilecek bir kaç farklı trickden bahsetmiş.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;css-hap-yazısı--css-scroll-snap&quot;&gt;&lt;a href=&quot;https://medium.com/@muratdogan/css-hap-yaz%C4%B1s%C4%B1-css-scroll-snap-9378473bdd8f&quot;&gt;CSS hap yazısı : CSS Scroll Snap&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Murat Doğan arkadaşımız bizlere CSS’in yeni özelliği olan Scroll Snapin sunduğu nimetlerinden bahsetmiş. Sonraki bölümlerde bu özelliği kullanarak bir kaç örnek yapabilirim. Çünkü ilgi çekici :)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;meetup&quot;&gt;Meetup&lt;/h3&gt;
+&lt;h4 id=&quot;geçmiş-meetup&quot;&gt;Geçmiş Meetup&lt;/h4&gt;
+&lt;h4 id=&quot;yazılımcılar-için-uzaktan-çalışma-fırsatları&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ZsLekH068tY&amp;amp;t&quot;&gt;Yazılımcılar için uzaktan çalışma fırsatları&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Devnot Yazılımcı Buluşmaları adına &lt;a href=&quot;(https://twitter.com/umutluoglu)&quot;&gt;Uğur Umutluoğlu&lt;/a&gt; hocamızın düzenlediği harika bir etkinlikti. Konuşmacı olan &lt;a href=&quot;(https://twitter.com/ahmetkakici)&quot;&gt;Ahmet KAKICI&lt;/a&gt; ve &lt;a href=&quot;(https://twitter.com/ermankuplu)&quot;&gt;Erman KÜPLÜ&lt;/a&gt; uzaktan çalışmak ile ilgili bizlerle güzel deneyimlerini paylaştılar.&lt;/p&gt;
+
+&lt;p&gt;Etkinlik sırasında canlı yayın için video alınmış. İlgili videoya başlıktan ulaşabilirsiniz&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;gelecek-meetuplar&quot;&gt;Gelecek Meetuplar&lt;/h4&gt;
+
+&lt;h4 id=&quot;flutter-study-jam&quot;&gt;&lt;a href=&quot;https://www.meetup.com/tr-TR/GDGIstanbul/events/254440224/&quot;&gt;Flutter Study Jam&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Google’ın native uygulamalar için ürettiği &lt;a href=&quot;https://flutter.io/&quot;&gt;Flutter&lt;/a&gt; hakkında bilgi sahibi olmak için GDG İstanbul’un düzenlediği güzel bir etkinlik.&lt;/p&gt;
+
+&lt;h4 id=&quot;geleceğin-teknolojisi-blazor-ve-vsts-uygulamaları&quot;&gt;&lt;a href=&quot;https://www.meetup.com/tr-TR/Istanbul-Windows-Development-Meetup/events/253520782/&quot;&gt;Geleceğin Teknolojisi Blazor ve VSTS Uygulamaları&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;VSTS ve Blazor uygulamaları hakkında teknik bilgi sahibi olmak için güzel bir etkinlik&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;kenardakalsin&quot;&gt;#kenardakalsin&lt;/h3&gt;
+
+&lt;h4 id=&quot;2000-slack-chat-grubu-ve-toplulukları&quot;&gt;&lt;a href=&quot;https://standuply.com/slack-chat-groups&quot;&gt;2000 Slack Chat Grubu ve Toplulukları&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Siteye girdiğimizde düzenli bir şekilde kategorilendirilmiş fazlaca slack grubu mevcut. Kısacası herkes için slack grubu var burada.&lt;/p&gt;
+
+&lt;p&gt;Hatta kategorilendirme şekli çok iyimiş, şöyle ki:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Product Talks - 186&lt;/li&gt;
+  &lt;li&gt;IT Talks - 278&lt;/li&gt;
+  &lt;li&gt;Programming Talks - 251&lt;/li&gt;
+  &lt;li&gt;Marketing Talks - 35&lt;/li&gt;
+  &lt;li&gt;Finance Talks - 145&lt;/li&gt;
+  &lt;li&gt;Hardware Talks - 42&lt;/li&gt;
+  &lt;li&gt;Miscellaneous - 326&lt;/li&gt;
+  &lt;li&gt;Local Talks - 730&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;renk-arama-motoru&quot;&gt;&lt;a href=&quot;https://picular.co/&quot;&gt;Renk Arama Motoru&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Renk için arama motoru yapmışlar. Örnek olarak arama kutusuna “spring” yazınca bahar ile alakalı görselleri Google’dan çekerek, görseldeki yoğun olan rengi HEX kodu olarak bize veriyor.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;chrome-eklentileri&quot;&gt;Chrome Eklentileri&lt;/h3&gt;
+
+&lt;h4 id=&quot;️-loom---ekran-kaydedici-webcam-ile&quot;&gt;&lt;a href=&quot;https://www.useloom.com&quot;&gt;🕸️ Loom - Ekran kaydedici (webcam ile)&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h4 id=&quot;️️️️-grammarly---i̇ngilizce-gramer-düzeltici&quot;&gt;️&lt;a href=&quot;https://www.grammarly.com/&quot;&gt;️️🕸️ Grammarly - İngilizce gramer düzeltici&lt;/a&gt;&lt;/h4&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/03-kesif.png" /><media:content medium="image" url="http://localhost:4000/assets/images/03-kesif.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">#2 - Keşif</title><link href="http://localhost:4000/2018/09/01/kesif-2.html" rel="alternate" type="text/html" title="#2 - Keşif" /><published>2018-09-01T17:20:00+03:00</published><updated>2018-09-01T17:20:00+03:00</updated><id>http://localhost:4000/2018/09/01/kesif-2</id><content type="html" xml:base="http://localhost:4000/2018/09/01/kesif-2.html">&lt;p&gt;&lt;img src=&quot;/assets/images/02-kesif.png&quot; width=&quot;200&quot; style=&quot;margin:auto; display:block&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/images/logo-front-end-performance-checklist.jpg&quot; align=&quot;left&quot; width=&quot;100&quot; style=&quot;margin-right:15px&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;front-end-performance-checklist&quot;&gt;&lt;a href=&quot;https://github.com/thedaviddias/Front-End-Performance-Checklist&quot;&gt;Front-End-Performance-Checklist&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://frontendchecklist.io&quot;&gt;frontendchecklist.io&lt;/a&gt; kurucusu olduğu &lt;a href=&quot;https://github.com/thedaviddias&quot;&gt;thedaviddias&lt;/a&gt;‘ın yeni derlediği fakat henüz web sitesinden yayına almadığı; web site performansına yönelik güncel github reposu.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://css-tricks.com/wp-content/uploads/2018/08/shape-outside.jpg&quot; align=&quot;right&quot; width=&quot;100&quot; height=&quot;90&quot; style=&quot;margin-left:15px&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;css-shape-editors&quot;&gt;&lt;a href=&quot;https://css-tricks.com/css-shape-editors/&quot;&gt;CSS Shape Editors&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Firefox 62’de image’in shape-outside’ı ile oynamaya imkan tanıyan sahip olduğu inspect modu sayesinde görselle yanaşık yazılarda okunmasını kolaylaştırmaya ve yerleşimini oynamanaza olanak sağlayan dahili plugin.&lt;/p&gt;
+
+&lt;p&gt;Henüz Chrome’da yok fakat onun için ek &lt;a href=&quot;https://chrome.google.com/webstore/detail/css-shapes-editor/nenndldnbcncjmeacmnondmkkfedmgmp&quot;&gt;plugin&lt;/a&gt; mevcutmuş. Chris, Firefox’a katkıda bulunan Razvan Caliman’a teşekkürde bulunmuş.&lt;/p&gt;
+
+&lt;p&gt;Hali hazırda bulunan online shape generator için de &lt;a href=&quot;https://bennettfeely.com/clippy/&quot;&gt;Clippy&lt;/a&gt; adında bir tool mevcut. Bilmeyenler deneyebilir, clip path oluşturmak için harika bir tooldur.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.hizliresim.com/yqDj60.png&quot; align=&quot;left&quot; width=&quot;100&quot; style=&quot;margin-right:15px&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;progressive-tooling&quot;&gt;&lt;a href=&quot;https://progressivetooling.com/&quot;&gt;Progressive Tooling&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Sayfa performansını iyileştirmek için kullanılabilecek, üçüncü parti araçların listesinin bulunduğu web sitesi. &lt;a href=&quot;https://github.com/GoogleChromeLabs&quot;&gt;GoogleChromeLabs&lt;/a&gt; topluluğu tarafından yapılmış.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.hizliresim.com/g6GbRR.png&quot; align=&quot;right&quot; width=&quot;100&quot; style=&quot;margin-left:15px&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;make-my-persona&quot;&gt;&lt;a href=&quot;https://www.hubspot.com/make-my-persona&quot;&gt;Make My Persona&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Kendi personalarınızı oluşturabileceğiniz Hubspot’un muazzam persona toolkiti. Gerçekten muazzam, deneyin :)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ufak-tefek&quot;&gt;Ufak tefek&lt;/h3&gt;
+
+&lt;h4 id=&quot;slugify&quot;&gt;&lt;a href=&quot;https://you.tools/slugify/&quot;&gt;Slugify&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Lazım oldukça açıp kullandığım, linkleri slug-url’e çeviren bir araç&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;title-case&quot;&gt;&lt;a href=&quot;https://titlecase.com/&quot;&gt;Title Case&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Adının Title Case olduğuna bakmayın, farklı methodlarda kullanılan case generateleri mevcut.&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/02-kesif.png" /><media:content medium="image" url="http://localhost:4000/assets/images/02-kesif.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Youtube Videolarından Altyazı Çekmek</title><link href="http://localhost:4000/2018/09/01/youtube-videolarinin-altyazilarini-cekme.html" rel="alternate" type="text/html" title="Youtube Videolarından Altyazı Çekmek" /><published>2018-09-01T16:00:00+03:00</published><updated>2018-09-01T16:00:00+03:00</updated><id>http://localhost:4000/2018/09/01/youtube-videolarinin-altyazilarini-cekme</id><content type="html" xml:base="http://localhost:4000/2018/09/01/youtube-videolarinin-altyazilarini-cekme.html">&lt;blockquote&gt;
+  &lt;p&gt;Aslında altyazıları “.srt” olarak gayet güzel şekilde çeken generatorler mevcut fakat aşağıdaki kodlarda, pencerenin farklı bir persektifinden bakmak için derlediğim bir yazı oldu.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Not: Bu yöntem otomatik olarak çevrilen çeviriler için verimli çalışmayabilir.&lt;/p&gt;
+
+&lt;p&gt;Method:&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;CaptionCollector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;captions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nowShowing&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;collect&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentCaption&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementsByClassName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;captions-text&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentCaption&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;currentCaption&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nowShowing&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentCaption&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;nowShowing&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentCaption&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;captions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nowShowing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;collect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;CaptionCollector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;collect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Altyazı &lt;strong&gt;foo.captions&lt;/strong&gt; olarak gelecektir. “foo” yerine istediğinizi kullanabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;captionCollector&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;captions&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;nowShowing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+
+    &lt;span class=&quot;na&quot;&gt;collect&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentCaption&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementsByClassName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;captions-text&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentCaption&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;currentCaption&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nowShowing&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentCaption&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nowShowing&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentCaption&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;captionCollector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;captions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;captionCollector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nowShowing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;captionCollector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;collect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;captionCollector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;collect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Bu methodda &lt;strong&gt;captionCollector.captions&lt;/strong&gt; olarak getirir&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ya da global değişkene atayarak da yapabilirsiniz.&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;___captions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;___nowShowing&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getCaption&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentCaption&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementsByClassName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;captions-text&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentCaption&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;currentCaption&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;___nowShowing&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentCaption&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;nx&quot;&gt;___nowShowing&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;currentCaption&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+          &lt;span class=&quot;nx&quot;&gt;___captions&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;___nowShowing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getCaption&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;300&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;nx&quot;&gt;getCaption&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Bu methodda, konsolu global değişkenle yazdırıyorsunuz &lt;strong&gt;___captions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Youtube’un videolar için kullandığı “captions-text” classı kullandığı için yalnızca Youtube’da çalışır. Diğer video hizmetleri için classname’i değiştirin.&lt;/p&gt;
+
+&lt;p&gt;Tüm altyazıları çekmek için tüm videoyu oynatmanız gerekecektir. Ayarlarla videoyu iki kat hızlı oynatabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;Video bittiğinde konsolu temizleyin. Değişkenleri çağırın yazdırın ve hepsini seçip kopyalayın.&lt;/p&gt;
+
+&lt;p&gt;İşlem tamam.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;kaynak&quot;&gt;Kaynak:&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.standardista.com/capturing-captions-from-youtube-videos&quot;&gt;http://www.standardista.com/capturing-captions-from-youtube-videos&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Aslında altyazıları “.srt” olarak gayet güzel şekilde çeken generatorler mevcut fakat aşağıdaki kodlarda, pencerenin farklı bir persektifinden bakmak için derlediğim bir yazı oldu.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Closed_captioning_symbol.svg/1200px-Closed_captioning_symbol.svg.png" /><media:content medium="image" url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Closed_captioning_symbol.svg/1200px-Closed_captioning_symbol.svg.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Photoshop’da Fontları Listelemek</title><link href="http://localhost:4000/2018/08/30/photoshopda-fontlari-listelemek.html" rel="alternate" type="text/html" title="Photoshop’da Fontları Listelemek" /><published>2018-08-30T19:00:00+03:00</published><updated>2018-08-30T19:00:00+03:00</updated><id>http://localhost:4000/2018/08/30/photoshopda-fontlari-listelemek</id><content type="html" xml:base="http://localhost:4000/2018/08/30/photoshopda-fontlari-listelemek.html">&lt;p&gt;&lt;img src=&quot;https://github.com/frontendbeast/list-fonts/raw/master/screenshots/result.jpg?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Photoshop’da yapılan tasarım için kullanılan fontları listelemenize yarayabilecek küçük bir jsx dosyası.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;photoshop-scripti-kurulumu&quot;&gt;Photoshop Scripti Kurulumu&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/frontendbeast/list-fonts&quot;&gt;Github linki&lt;/a&gt; üzerinden &lt;strong&gt;List Fonts.jsx&lt;/strong&gt; dosyasını indirip “Applications/Adobe Photoshop [version]/Presets/Scripts” klasörünün içine atın.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;photoshop-scripti-kullanımı&quot;&gt;Photoshop Scripti Kullanımı&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://github.com/frontendbeast/list-fonts/raw/master/screenshots/usage.jpg?raw=true&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://github.com/frontendbeast/list-fonts/raw/master/screenshots/result.jpg?raw=true" /><media:content medium="image" url="https://github.com/frontendbeast/list-fonts/raw/master/screenshots/result.jpg?raw=true" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Mobilde Hover Simule Etmek</title><link href="http://localhost:4000/2018/08/26/mobilde-hover-simule-etmek.html" rel="alternate" type="text/html" title="Mobilde Hover Simule Etmek" /><published>2018-08-26T18:00:00+03:00</published><updated>2018-08-26T18:00:00+03:00</updated><id>http://localhost:4000/2018/08/26/mobilde-hover-simule-etmek</id><content type="html" xml:base="http://localhost:4000/2018/08/26/mobilde-hover-simule-etmek.html">&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/26BRERwHtgJTf7rTG/giphy.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mobilde aslında hover özelliği olan bir şeye dokunduktan sonra bıraktığımızda basılı kalıyordu. Bir projemde bu özelliğin önüne geçip kullanıcıya mobil uygulama hissiyatı kazandırmak için bu sıkıntıyı çözmem gerekiyordu.&lt;/p&gt;
+
+&lt;p&gt;Stackoverflow’da çözümünü buldum.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;jQuery&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ready&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// .hover elementine dokunulduğunda o elemente hover_effect classını uygula&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;.hover&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;touchstart touchend&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toggleClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;hover_effect&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ama sonra sadece yukarıdaki kodu çalıştırınca elementin üzerinde scroll yapmakta zorlandığımı farkettim ve aşağıdaki kodu da ekledim.&lt;/p&gt;
+
+&lt;p&gt;Yine &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;document.ready&lt;/code&gt; içine ekledim;&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;touchmove&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stopPropagation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.hover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;-webkit-user-select&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;/* basılı tutulduğu zaman elemanları seçili hale getirmemesi için */&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;-webkit-touch-callout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;/* iOS cihazlarda basılı tutup bir kaç saniye bekletildiğinde bağlantı hakkında info çıkartmaması için */&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.element.hover_effect&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;/* hover olduğunda olacak şeyler */&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;kaynak&quot;&gt;Kaynak&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/2851663/how-do-i-simulate-a-hover-with-a-touch-in-touch-enabled-browsers&quot;&gt;https://stackoverflow.com/questions/2851663/how-do-i-simulate-a-hover-with-a-touch-in-touch-enabled-browsers&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Chrome’da Eklentisiz Screenshot</title><link href="http://localhost:4000/2018/08/25/chrome-eklentisiz-screenshot.html" rel="alternate" type="text/html" title="Chrome’da Eklentisiz Screenshot" /><published>2018-08-25T20:50:00+03:00</published><updated>2018-08-25T20:50:00+03:00</updated><id>http://localhost:4000/2018/08/25/chrome-eklentisiz-screenshot</id><content type="html" xml:base="http://localhost:4000/2018/08/25/chrome-eklentisiz-screenshot.html">&lt;p&gt;Geçenlerde yine inspect modundayım, yanlışlıkla kendimi VSCode’da sanıp &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTRL + P&lt;/code&gt; yapmıştım, bir tane kutu geldi sayfanın render ettiği dosyaları gösteren.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Type ‘?’ to see aviable commands&lt;/em&gt; demiş, işime yarayabilir bir şeyler çıkar diyerek kurcuklayayım dedim.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;No&lt;/th&gt;
+      &lt;th&gt;Key&lt;/th&gt;
+      &lt;th&gt;Açıklama&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;…&lt;/td&gt;
+      &lt;td&gt;Open file&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;:&lt;/td&gt;
+      &lt;td&gt;Go to line&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;@&lt;/td&gt;
+      &lt;td&gt;Go to symbol&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;!&lt;/td&gt;
+      &lt;td&gt;Run snippet&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;&amp;gt;&lt;/td&gt;
+      &lt;td&gt;Run command&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Open file&lt;/code&gt; seçeneği kullanılabilir dosyalarda gezinmek için.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Go to line&lt;/code&gt; kesin kullanırım, belirli satıra gitmek için süper olur.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Go to symbol&lt;/code&gt; tam olarak çözemedim ama anladığım kadarıyla css ve javascript kodlarında ilgili değişken ve fonksiyonlara gidiyor.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Run snippet&lt;/code&gt; bunu daha önce kullanmamıştım ama bu özelliğinde de kullanışlı olduğunu anladım. Hemen açıklayayım;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;run-snippet&quot;&gt;Run snippet&lt;/h3&gt;
+
+&lt;p&gt;DevTools’da &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sources&lt;/code&gt; sekmesine geldikten sonra sol taraftaki sidebarda genellikle &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Page&lt;/code&gt; seçili gelir. Aslında orada 5 adet sekme bulunuyor. Sidebarı genişletince veya &lt;strong&gt;»&lt;/strong&gt; ikonuna tıkladığımızda &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Snippet&lt;/code&gt; sekmesi karşımıza çıkacak.&lt;/p&gt;
+
+&lt;p&gt;Burada &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+ New Snippet&lt;/code&gt; diyerek içerisine; nasıl ki console kısmına bazen sürekli yazdığımız kodlar oluyor ya, hah! işte o kodları her zaman yazmayalım diye buraya “snippet” olarak ekleyebiliyoruz ve tek komutla çalıştırabiliyoruz. Çok güzel değil mi yav :)&lt;/p&gt;
+
+&lt;h3 id=&quot;geldik-asıl-olaya-eklentisiz-screenshot-nasıl-alırız-&quot;&gt;Geldik asıl olaya, eklentisiz screenshot nasıl alırız :)&lt;/h3&gt;
+
+&lt;p&gt;5 numaralı &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Run Command&lt;/code&gt; kısayolumuz, diğer bir kısayolu &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTRL + SHIFT + P&lt;/code&gt; olan komut çalıştırma bölümü. Burada türlü tefarek olaylar dönüyor, hepsini anlatmaya gün yetmez. Siz deneyip bulursunuz onları artık, ben yolu gösterdim :)&lt;/p&gt;
+
+&lt;p&gt;Şimdi burada &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt;screenshot&lt;/code&gt; yazıyoruz&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.hizliresim.com/aYR8RB.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;No&lt;/th&gt;
+      &lt;th&gt;Komut&lt;/th&gt;
+      &lt;th&gt;Açıklama&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Capture full size screenshot&lt;/td&gt;
+      &lt;td&gt;Ekranın baştan aşağı tam görüntüsünü alıyor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Capture node screenshot&lt;/td&gt;
+      &lt;td&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTRL + SHIFT + C&lt;/code&gt; ile seçili olan alanın görüntüsünü alıyor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;Capture screenshot&lt;/td&gt;
+      &lt;td&gt;Bulunan pencerenin monitöre göre gözüken kısmın görüntüsünü alıyor&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Harika değil mi yahu! :)&lt;/p&gt;</content><author><name></name></author><summary type="html">Geçenlerde yine inspect modundayım, yanlışlıkla kendimi VSCode’da sanıp CTRL + P yapmıştım, bir tane kutu geldi sayfanın render ettiği dosyaları gösteren.</summary></entry><entry><title type="html">Konum Çekme</title><link href="http://localhost:4000/2018/08/25/konum-cekme.html" rel="alternate" type="text/html" title="Konum Çekme" /><published>2018-08-25T19:00:00+03:00</published><updated>2018-08-25T19:00:00+03:00</updated><id>http://localhost:4000/2018/08/25/konum-cekme</id><content type="html" xml:base="http://localhost:4000/2018/08/25/konum-cekme.html">&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/HzMfJIkTZgx8s/giphy.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Geolocation API’nı kullanarak kullanıcının kendi rızası ile kendi yerini bildirmesini sağlar.&lt;/p&gt;
+
+&lt;h1 id=&quot;nerelerde-kullanılır&quot;&gt;Nerelerde kullanılır?&lt;/h1&gt;
+&lt;p&gt;Kullanıcıyı bulunduğu hedeften yakın hedeflere yönlendirme, benzer hedeflere yönlendirme, bulunduğu alanı işaretleme gibi gibi bir çok yerde kullanılabilir.&lt;/p&gt;
+
+&lt;p&gt;Örneğin, projenizde fotoğraf yükleme alanı var ve fotoğrafın çekildiği yerin nereye ait olduğunu yazdırmak için Geolocation API kullanarak &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lat&lt;/code&gt; ve &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;lng&lt;/code&gt; koordinat değerlerini çektirebilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;nasıl-kullanılır&quot;&gt;Nasıl kullanılır?&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;
+Bir buton ekliyorum&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;button&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Konum al&lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Hata mesajı için yazdırması bir div ekliyorum&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;nudge&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;display:none&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Hata: konum alınamadı.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Lat&lt;/code&gt; ve &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Lng&lt;/code&gt; değerlerini yazabilmesi için gereken iki div ekliyorum&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;startLat&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;startLon&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Ve son olarak javascript kodlarını sayfama dahil ediyorum&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;button&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;button&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;onclick&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;startPos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nudge&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;nudge&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;showNudgeBanner&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;nudge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;display&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;hideNudgeBanner&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;nudge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;display&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nudgeTimeoutId&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;setTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;showNudgeBanner&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;geoSuccess&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;hideNudgeBanner&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// We have the location, don't display banner&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;clearTimeout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nudgeTimeoutId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// Do magic with location&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;startPos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;startLat&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;startPos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;coords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;latitude&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;startLon&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;startPos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;coords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;longitude&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;geoError&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;switch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TIMEOUT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// The user didn't accept the callout&lt;/span&gt;
+        &lt;span class=&quot;nx&quot;&gt;showNudgeBanner&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+  &lt;span class=&quot;nb&quot;&gt;navigator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;geolocation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getCurrentPosition&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;geoSuccess&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;geoError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Burada ne oluyor?&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Konumu çekmek için butona tıklandıktan sonra 5 saniye bekletiyor.&lt;/li&gt;
+  &lt;li&gt;Sonuç olumlu dönerse, bekletmeyi devre dışı bırakıp değerleri &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#startLat&lt;/code&gt; ve &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#startLon&lt;/code&gt; divlerine yazdırıyor.&lt;/li&gt;
+  &lt;li&gt;Ama eğer zaman aşımından sonra olumsuz dönerse &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#nudge&lt;/code&gt; divi içine hata mesajı yazdırıyor.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;chrome-devtoolsdan-lokasyon-emule-etmek&quot;&gt;Chrome DevTools’dan lokasyon emule etmek&lt;/h1&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;img src=&quot;https://i.hizliresim.com/dBENPn.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Eğer sensör sekmesi sizde kapalıysa;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.hizliresim.com/zMqpa4.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Mobilde İkon Kullanımı ve Tarayıcı Sekmesi Rengi</title><link href="http://localhost:4000/2018/08/25/mobilde-ikon-kullanimi-ve-tarayici-sekmesi-rengi.html" rel="alternate" type="text/html" title="Mobilde İkon Kullanımı ve Tarayıcı Sekmesi Rengi" /><published>2018-08-25T18:00:00+03:00</published><updated>2018-08-25T18:00:00+03:00</updated><id>http://localhost:4000/2018/08/25/mobilde-ikon-kullanimi-ve-tarayici-sekmesi-rengi</id><content type="html" xml:base="http://localhost:4000/2018/08/25/mobilde-ikon-kullanimi-ve-tarayici-sekmesi-rengi.html">&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/3oGRFLswfKzceq5kLm/giphy.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Günümüz tarayıcılarında kullanıcılarla etkileşimi arttıran, ikon ve adres çubuğu rengi gibi belirli alanları özelleştirmeyi sağlayan basit ince ayarlar mevcut.&lt;/p&gt;
+
+&lt;p&gt;Web sayfamız görüntülendiğinde, tarayıcımız web sayfasının ikonunu favicon olarak çekebiliyor. Web sayfamızı mobilde incelediğimizde, aslında ikonumuzu diğer özelleştirilmiş alanlarda da göstermemiz mümkün.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tam olarak neresi oluyor bu özelleştirilmiş alan?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tarayıcı sekmesi, arkaplanda çalışan uygulamaların görüldüğü bölüm, yeni sekme sayfası açarken çıkan alan gibi bir yerleri özelleştirebiliyoruz.&lt;/p&gt;
+
+&lt;p&gt;Yalnızca modern tarayıcılarda çalışan bu özellik için &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; etiketi içine bir kaç tag eklemek yeterli.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Yüksek çözünürlüklü ikon --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;sizes=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;192x192&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Safari tarayıcısı için aynı ikonu tekrar çağır --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple-touch-icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;ios-icon.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- IE tarayıcıları için --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;msapplication-square310x310logo&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon_largetile.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;İkonların boyutları 48px, 96px, 144px ve 192px olması gerekiyor.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;safari&quot;&gt;Safari&lt;/h1&gt;
+&lt;p&gt;Safari’nin kullandığı &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;link&amp;gt;&lt;/code&gt; etiketinin &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rel&lt;/code&gt; özniteliği: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;apple-touch-icon&lt;/code&gt; olması gerekir.&lt;/p&gt;
+
+&lt;p&gt;Her boyut için farklı bir etiket kullanarak farklı tema ve görünüme sahip olan telefonların ikonu otomatik olarak yeniden boyutlandırarak çözünürlüğünü bozmak yerine aşağıdaki etiketleri kullanarak farklı görünümler için farklı boyutlarda ikonları tanıtabilirsiniz.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple-touch-icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;touch-icon-iphone.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple-touch-icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;sizes=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;76x76&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;touch-icon-ipad.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple-touch-icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;sizes=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;120x120&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;touch-icon-iphone-retina.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;apple-touch-icon&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;sizes=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;152x152&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;touch-icon-ipad-retina.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;internet-explorer-ve-windows-phone&quot;&gt;Internet Explorer ve Windows Phone&lt;/h1&gt;
+
+&lt;p&gt;Her ne kadar Türkiye pazarında fazla bir popülasyona sahip olmasa da hedef kitleniz windows phone kullanıyorsa aşağıdaki meta etiketlerini tanımlayabilirsiniz.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;msapplication-square70x70logo&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon_smalltile.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;msapplication-square150x150logo&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon_mediumtile.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;msapplication-wide310x150logo&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;icon_widetile.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;renkli-tarayıcı-sekmeleri&quot;&gt;Renkli tarayıcı sekmeleri&lt;/h1&gt;
+
+&lt;p&gt;Farklı &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;meta&lt;/code&gt; etiketi kullanarak, tarayıcıyı özelleştirebiliyoruz. Sadece modern tarayıcılarda çalışacaktır.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Chrome, Firefox OS ve Opera --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;theme-color&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#4285f4&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">#1 - Keşif</title><link href="http://localhost:4000/2018/08/24/1-kesif.html" rel="alternate" type="text/html" title="#1 - Keşif" /><published>2018-08-24T03:30:00+03:00</published><updated>2018-08-24T03:30:00+03:00</updated><id>http://localhost:4000/2018/08/24/1-kesif</id><content type="html" xml:base="http://localhost:4000/2018/08/24/1-kesif.html">&lt;p&gt;&lt;img src=&quot;/assets/images/01-kesif.png&quot; width=&quot;200&quot; style=&quot;margin:auto; display:block&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;-fractal-fantasy&quot;&gt;🚩 &lt;a href=&quot;https://fractalfantasy.net&quot;&gt;Fractal Fantasy&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Müzikleri fena değil, arkada hayvan gibi javascript yazmışlar.&lt;br /&gt;
+Yön oklarına falan basınca değişik şeyler oluyor, kurcuklamak lazım.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Three.js kullandıkları aşikâr, gerçekten çok başarılı bir kütüphane.&lt;/li&gt;
+  &lt;li&gt;Müzik playerı kendileri yazmışlar, Ezra Miller ve Sinjin Hawke adında iki güzel insan. Repo için &lt;a href=&quot;https://github.com/ezmill/ffplayer&quot;&gt;tıklayın&lt;/a&gt; –Sinjin Hawke, müzikleri yapan producer olabilir–&lt;/li&gt;
+  &lt;li&gt;İçerisinde DetectorMixtape.js adında bir WebGL işlemleri yaptıran script mevcut, yazarları şu iki siteyi de yapmışlar; &lt;a href=&quot;http://alteredqualia.com&quot;&gt;http://alteredqualia.com&lt;/a&gt; - &lt;a href=&quot;http://mrdoob.com&quot;&gt;http://mrdoob.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;-dinahmoe-labs&quot;&gt;🚩 &lt;a href=&quot;http://labs.dinahmoe.com/plink/&quot;&gt;Dinahmoe Labs&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;#adamlaryapmis&lt;/strong&gt; ve &lt;strong&gt;#kenardakalsin&lt;/strong&gt; etiketini hak eden bir site. Müzik ile alakalı multiplayer ve singleplayer olarak farklı farklı icatlar yapmışlar. İnsanın müzik yaratıcılığını artıyor resmen.&lt;/p&gt;
+
+&lt;p&gt;Aynı zamanda anonim yerlerden bağlanan kişilerle bir orkestra oluşturup müziğin keyfine doyum olmuyor 👌&lt;/p&gt;
+
+&lt;h1 id=&quot;-map-crunch&quot;&gt;🚩 &lt;a href=&quot;http://www.mapcrunch.com/&quot;&gt;Map Crunch&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Google map üzerinde random gezinme şeysi.&lt;br /&gt;
+Yurt dışı gezilerimi buradan yapıyorum. Bazen ilginç şeylerle karşılaşıyorum.&lt;/p&gt;
+
+&lt;p&gt;Aynı yapımcının &lt;a href=&quot;https://www.instantstreetview.com/&quot;&gt;diğer projesi&lt;/a&gt; de var ancak daha minimal yapmış. Teşekkürler Nick Nicholaou&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/01-kesif.png" /><media:content medium="image" url="http://localhost:4000/assets/images/01-kesif.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

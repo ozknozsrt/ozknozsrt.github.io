@@ -1,0 +1,41 @@
+I"z<p><img src="https://media.giphy.com/media/26BRERwHtgJTf7rTG/giphy.gif" alt="" /></p>
+
+<p>Mobilde aslında hover özelliği olan bir şeye dokunduktan sonra bıraktığımızda basılı kalıyordu. Bir projemde bu özelliğin önüne geçip kullanıcıya mobil uygulama hissiyatı kazandırmak için bu sıkıntıyı çözmem gerekiyordu.</p>
+
+<p>Stackoverflow’da çözümünü buldum.</p>
+
+<p><strong>jQuery</strong></p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// .hover elementine dokunulduğunda o elemente hover_effect classını uygula</span>
+    <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">.hover</span><span class="dl">'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">'</span><span class="s1">touchstart touchend</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">toggleClass</span><span class="p">(</span><span class="dl">'</span><span class="s1">hover_effect</span><span class="dl">'</span><span class="p">);</span>
+    <span class="p">});</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>Ama sonra sadece yukarıdaki kodu çalıştırınca elementin üzerinde scroll yapmakta zorlandığımı farkettim ve aşağıdaki kodu da ekledim.</p>
+
+<p>Yine <code class="language-plaintext highlighter-rouge">document.ready</code> içine ekledim;</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">body</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="dl">"</span><span class="s2">touchmove</span><span class="dl">"</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">event</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">();</span>
+    <span class="nx">event</span><span class="p">.</span><span class="nx">stopPropagation</span><span class="p">();</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p><strong>CSS</strong></p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.hover</span> <span class="p">{</span>
+    <span class="nl">-webkit-user-select</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span> <span class="c">/* basılı tutulduğu zaman elemanları seçili hale getirmemesi için */</span>
+    <span class="nl">-webkit-touch-callout</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span> <span class="c">/* iOS cihazlarda basılı tutup bir kaç saniye bekletildiğinde bağlantı hakkında info çıkartmaması için */</span>
+<span class="p">}</span>
+<span class="nc">.element.hover_effect</span> <span class="p">{</span>
+    <span class="c">/* hover olduğunda olacak şeyler */</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><br /></p>
+
+<h3 id="kaynak">Kaynak</h3>
+<p><a href="https://stackoverflow.com/questions/2851663/how-do-i-simulate-a-hover-with-a-touch-in-touch-enabled-browsers">https://stackoverflow.com/questions/2851663/how-do-i-simulate-a-hover-with-a-touch-in-touch-enabled-browsers</a></p>
+
+:ET

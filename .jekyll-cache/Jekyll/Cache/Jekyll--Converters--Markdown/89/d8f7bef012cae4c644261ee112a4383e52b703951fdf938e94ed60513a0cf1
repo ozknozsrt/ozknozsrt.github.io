@@ -1,0 +1,55 @@
+I"�<p><img src="https://media.giphy.com/media/3oGRFLswfKzceq5kLm/giphy.gif" alt="" /></p>
+
+<p>Günümüz tarayıcılarında kullanıcılarla etkileşimi arttıran, ikon ve adres çubuğu rengi gibi belirli alanları özelleştirmeyi sağlayan basit ince ayarlar mevcut.</p>
+
+<p>Web sayfamız görüntülendiğinde, tarayıcımız web sayfasının ikonunu favicon olarak çekebiliyor. Web sayfamızı mobilde incelediğimizde, aslında ikonumuzu diğer özelleştirilmiş alanlarda da göstermemiz mümkün.</p>
+
+<p><strong>Tam olarak neresi oluyor bu özelleştirilmiş alan?</strong></p>
+
+<p>Tarayıcı sekmesi, arkaplanda çalışan uygulamaların görüldüğü bölüm, yeni sekme sayfası açarken çıkan alan gibi bir yerleri özelleştirebiliyoruz.</p>
+
+<p>Yalnızca modern tarayıcılarda çalışan bu özellik için <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> etiketi içine bir kaç tag eklemek yeterli.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- Yüksek çözünürlüklü ikon --&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"icon"</span> <span class="na">sizes=</span><span class="s">"192x192"</span> <span class="na">href=</span><span class="s">"icon.png"</span><span class="nt">&gt;</span>
+
+<span class="c">&lt;!-- Safari tarayıcısı için aynı ikonu tekrar çağır --&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"apple-touch-icon"</span> <span class="na">href=</span><span class="s">"ios-icon.png"</span><span class="nt">&gt;</span>
+
+<span class="c">&lt;!-- IE tarayıcıları için --&gt;</span>
+<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"msapplication-square310x310logo"</span> <span class="na">content=</span><span class="s">"icon_largetile.png"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<p>İkonların boyutları 48px, 96px, 144px ve 192px olması gerekiyor.
+<br /><br /></p>
+
+<h1 id="safari">Safari</h1>
+<p>Safari’nin kullandığı <code class="language-plaintext highlighter-rouge">&lt;link&gt;</code> etiketinin <code class="language-plaintext highlighter-rouge">rel</code> özniteliği: <code class="language-plaintext highlighter-rouge">apple-touch-icon</code> olması gerekir.</p>
+
+<p>Her boyut için farklı bir etiket kullanarak farklı tema ve görünüme sahip olan telefonların ikonu otomatik olarak yeniden boyutlandırarak çözünürlüğünü bozmak yerine aşağıdaki etiketleri kullanarak farklı görünümler için farklı boyutlarda ikonları tanıtabilirsiniz.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"apple-touch-icon"</span> <span class="na">href=</span><span class="s">"touch-icon-iphone.png"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"apple-touch-icon"</span> <span class="na">sizes=</span><span class="s">"76x76"</span> <span class="na">href=</span><span class="s">"touch-icon-ipad.png"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"apple-touch-icon"</span> <span class="na">sizes=</span><span class="s">"120x120"</span> <span class="na">href=</span><span class="s">"touch-icon-iphone-retina.png"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"apple-touch-icon"</span> <span class="na">sizes=</span><span class="s">"152x152"</span> <span class="na">href=</span><span class="s">"touch-icon-ipad-retina.png"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+<p><br /></p>
+<h1 id="internet-explorer-ve-windows-phone">Internet Explorer ve Windows Phone</h1>
+
+<p>Her ne kadar Türkiye pazarında fazla bir popülasyona sahip olmasa da hedef kitleniz windows phone kullanıyorsa aşağıdaki meta etiketlerini tanımlayabilirsiniz.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"msapplication-square70x70logo"</span> <span class="na">content=</span><span class="s">"icon_smalltile.png"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"msapplication-square150x150logo"</span> <span class="na">content=</span><span class="s">"icon_mediumtile.png"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"msapplication-wide310x150logo"</span> <span class="na">content=</span><span class="s">"icon_widetile.png"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+
+<p><br /></p>
+
+<h1 id="renkli-tarayıcı-sekmeleri">Renkli tarayıcı sekmeleri</h1>
+
+<p>Farklı <code class="language-plaintext highlighter-rouge">meta</code> etiketi kullanarak, tarayıcıyı özelleştirebiliyoruz. Sadece modern tarayıcılarda çalışacaktır.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- Chrome, Firefox OS ve Opera --&gt;</span>
+<span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"theme-color"</span> <span class="na">content=</span><span class="s">"#4285f4"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+:ET

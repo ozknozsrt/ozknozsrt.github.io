@@ -1,0 +1,56 @@
+I"�<p><img src="/assets/images/02-kesif.png" width="200" style="margin:auto; display:block" />
+<br /></p>
+<hr />
+
+<p><br /></p>
+
+<p><img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/images/logo-front-end-performance-checklist.jpg" align="left" width="100" style="margin-right:15px" /></p>
+
+<h4 id="front-end-performance-checklist"><a href="https://github.com/thedaviddias/Front-End-Performance-Checklist">Front-End-Performance-Checklist</a></h4>
+
+<p><a href="http://frontendchecklist.io">frontendchecklist.io</a> kurucusu olduğu <a href="https://github.com/thedaviddias">thedaviddias</a>‘ın yeni derlediği fakat henüz web sitesinden yayına almadığı; web site performansına yönelik güncel github reposu.</p>
+
+<p><br /><br /></p>
+
+<p><img src="https://css-tricks.com/wp-content/uploads/2018/08/shape-outside.jpg" align="right" width="100" height="90" style="margin-left:15px" /></p>
+
+<h4 id="css-shape-editors"><a href="https://css-tricks.com/css-shape-editors/">CSS Shape Editors</a></h4>
+
+<p>Firefox 62’de image’in shape-outside’ı ile oynamaya imkan tanıyan sahip olduğu inspect modu sayesinde görselle yanaşık yazılarda okunmasını kolaylaştırmaya ve yerleşimini oynamanaza olanak sağlayan dahili plugin.</p>
+
+<p>Henüz Chrome’da yok fakat onun için ek <a href="https://chrome.google.com/webstore/detail/css-shapes-editor/nenndldnbcncjmeacmnondmkkfedmgmp">plugin</a> mevcutmuş. Chris, Firefox’a katkıda bulunan Razvan Caliman’a teşekkürde bulunmuş.</p>
+
+<p>Hali hazırda bulunan online shape generator için de <a href="https://bennettfeely.com/clippy/">Clippy</a> adında bir tool mevcut. Bilmeyenler deneyebilir, clip path oluşturmak için harika bir tooldur.</p>
+
+<p><br /><br /></p>
+
+<p><img src="https://i.hizliresim.com/yqDj60.png" align="left" width="100" style="margin-right:15px" /></p>
+
+<h4 id="progressive-tooling"><a href="https://progressivetooling.com/">Progressive Tooling</a></h4>
+
+<p>Sayfa performansını iyileştirmek için kullanılabilecek, üçüncü parti araçların listesinin bulunduğu web sitesi. <a href="https://github.com/GoogleChromeLabs">GoogleChromeLabs</a> topluluğu tarafından yapılmış.</p>
+
+<p><br /><br /></p>
+
+<p><img src="https://i.hizliresim.com/g6GbRR.png" align="right" width="100" style="margin-left:15px" /></p>
+
+<h4 id="make-my-persona"><a href="https://www.hubspot.com/make-my-persona">Make My Persona</a></h4>
+
+<p>Kendi personalarınızı oluşturabileceğiniz Hubspot’un muazzam persona toolkiti. Gerçekten muazzam, deneyin :)</p>
+
+<p><br /></p>
+<hr />
+
+<p><br /></p>
+
+<h3 id="ufak-tefek">Ufak tefek</h3>
+
+<h4 id="slugify"><a href="https://you.tools/slugify/">Slugify</a></h4>
+<p>Lazım oldukça açıp kullandığım, linkleri slug-url’e çeviren bir araç</p>
+
+<p><br /></p>
+
+<h4 id="title-case"><a href="https://titlecase.com/">Title Case</a></h4>
+<p>Adının Title Case olduğuna bakmayın, farklı methodlarda kullanılan case generateleri mevcut.</p>
+
+:ET

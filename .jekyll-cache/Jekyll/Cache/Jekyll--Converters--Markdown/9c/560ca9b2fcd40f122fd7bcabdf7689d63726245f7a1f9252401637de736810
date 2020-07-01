@@ -1,0 +1,102 @@
+I"C%<blockquote>
+  <p>Aslında altyazıları “.srt” olarak gayet güzel şekilde çeken generatorler mevcut fakat aşağıdaki kodlarda, pencerenin farklı bir persektifinden bakmak için derlediğim bir yazı oldu.</p>
+</blockquote>
+
+<p><br />
+Not: Bu yöntem otomatik olarak çevrilen çeviriler için verimli çalışmayabilir.</p>
+
+<p>Method:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">CaptionCollector</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">that</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+  <span class="k">this</span><span class="p">.</span><span class="nx">captions</span> <span class="o">=</span> <span class="dl">''</span><span class="p">;</span>
+  <span class="kd">var</span> <span class="nx">nowShowing</span> <span class="o">=</span> <span class="dl">''</span><span class="p">;</span>
+
+  <span class="k">this</span><span class="p">.</span><span class="nx">collect</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
+    <span class="k">try</span> <span class="p">{</span>
+      <span class="kd">var</span> <span class="nx">currentCaption</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByClassName</span><span class="p">(</span><span class="dl">"</span><span class="s2">captions-text</span><span class="dl">"</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nx">innerText</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+      <span class="kd">var</span> <span class="nx">currentCaption</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="nx">currentCaption</span> <span class="o">&amp;&amp;</span> <span class="nx">nowShowing</span> <span class="o">!=</span> <span class="nx">currentCaption</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">nowShowing</span> <span class="o">=</span> <span class="nx">currentCaption</span><span class="p">;</span>
+      <span class="nx">that</span><span class="p">.</span><span class="nx">captions</span> <span class="o">+=</span> <span class="dl">'</span><span class="s1"> </span><span class="dl">'</span> <span class="o">+</span> <span class="nx">nowShowing</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="nx">setTimeout</span><span class="p">(</span><span class="nx">that</span><span class="p">.</span><span class="nx">collect</span><span class="p">,</span> <span class="mi">300</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">CaptionCollector</span><span class="p">();</span>
+<span class="nx">foo</span><span class="p">.</span><span class="nx">collect</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>Altyazı <strong>foo.captions</strong> olarak gelecektir. “foo” yerine istediğinizi kullanabilirsiniz.</p>
+
+<p><br /></p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">captionCollector</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="na">captions</span> <span class="p">:</span> <span class="dl">''</span><span class="p">,</span>
+    <span class="na">nowShowing</span><span class="p">:</span> <span class="dl">''</span><span class="p">,</span>
+
+    <span class="na">collect</span> <span class="p">:</span> <span class="kd">function</span><span class="p">(){</span>
+      <span class="k">try</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">currentCaption</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByClassName</span><span class="p">(</span><span class="dl">"</span><span class="s2">captions-text</span><span class="dl">"</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nx">innerText</span><span class="p">;</span>
+      <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">currentCaption</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+      <span class="p">}</span>
+    <span class="k">if</span><span class="p">(</span><span class="nx">currentCaption</span> <span class="o">&amp;&amp;</span> <span class="k">this</span><span class="p">.</span><span class="nx">nowShowing</span> <span class="o">!=</span> <span class="nx">currentCaption</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">nowShowing</span> <span class="o">=</span> <span class="nx">currentCaption</span><span class="p">;</span>
+        <span class="nx">captionCollector</span><span class="p">.</span><span class="nx">captions</span> <span class="o">+=</span> <span class="dl">'</span><span class="s1"> </span><span class="dl">'</span> <span class="o">+</span> <span class="nx">captionCollector</span><span class="p">.</span><span class="nx">nowShowing</span><span class="p">;</span>
+     <span class="p">}</span>
+    <span class="nx">setTimeout</span><span class="p">(</span><span class="nx">captionCollector</span><span class="p">.</span><span class="nx">collect</span><span class="p">,</span> <span class="mi">300</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nx">captionCollector</span><span class="p">.</span><span class="nx">collect</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>Bu methodda <strong>captionCollector.captions</strong> olarak getirir</p>
+
+<p><br /></p>
+
+<p>Ya da global değişkene atayarak da yapabilirsiniz.</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+    <span class="nx">___captions</span> <span class="o">=</span> <span class="dl">''</span><span class="p">;</span>
+    <span class="kd">var</span> <span class="nx">___nowShowing</span> <span class="o">=</span> <span class="dl">''</span><span class="p">;</span>
+
+    <span class="kd">function</span> <span class="nx">getCaption</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">try</span> <span class="p">{</span>
+          <span class="kd">var</span> <span class="nx">currentCaption</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByClassName</span><span class="p">(</span><span class="dl">"</span><span class="s2">captions-text</span><span class="dl">"</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nx">innerText</span><span class="p">;</span>
+        <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+          <span class="kd">var</span> <span class="nx">currentCaption</span> <span class="o">=</span> <span class="kc">null</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="k">if</span><span class="p">(</span><span class="nx">currentCaption</span> <span class="o">&amp;&amp;</span> <span class="nx">___nowShowing</span> <span class="o">!=</span> <span class="nx">currentCaption</span><span class="p">)</span> <span class="p">{</span>
+          <span class="nx">___nowShowing</span> <span class="o">=</span> <span class="nx">currentCaption</span><span class="p">;</span>
+          <span class="nx">___captions</span> <span class="o">+=</span> <span class="dl">'</span><span class="s1"> </span><span class="dl">'</span> <span class="o">+</span> <span class="nx">___nowShowing</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="nx">setTimeout</span><span class="p">(</span><span class="nx">getCaption</span><span class="p">,</span> <span class="mi">300</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="nx">getCaption</span><span class="p">();</span>
+<span class="p">})();</span>
+</code></pre></div></div>
+
+<p>Bu methodda, konsolu global değişkenle yazdırıyorsunuz <strong>___captions</strong></p>
+
+<p><br />
+Youtube’un videolar için kullandığı “captions-text” classı kullandığı için yalnızca Youtube’da çalışır. Diğer video hizmetleri için classname’i değiştirin.</p>
+
+<p>Tüm altyazıları çekmek için tüm videoyu oynatmanız gerekecektir. Ayarlarla videoyu iki kat hızlı oynatabilirsiniz.</p>
+
+<p>Video bittiğinde konsolu temizleyin. Değişkenleri çağırın yazdırın ve hepsini seçip kopyalayın.</p>
+
+<p>İşlem tamam.</p>
+
+<p><br /></p>
+
+<h4 id="kaynak">Kaynak:</h4>
+<p><a href="http://www.standardista.com/capturing-captions-from-youtube-videos">http://www.standardista.com/capturing-captions-from-youtube-videos</a></p>
+:ET

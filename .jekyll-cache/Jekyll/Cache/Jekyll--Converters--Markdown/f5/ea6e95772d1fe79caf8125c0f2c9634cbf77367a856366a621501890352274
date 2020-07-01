@@ -1,0 +1,80 @@
+I"x<p><img src="https://media.giphy.com/media/HzMfJIkTZgx8s/giphy.gif" alt="" /></p>
+
+<p>Geolocation API’nı kullanarak kullanıcının kendi rızası ile kendi yerini bildirmesini sağlar.</p>
+
+<h1 id="nerelerde-kullanılır">Nerelerde kullanılır?</h1>
+<p>Kullanıcıyı bulunduğu hedeften yakın hedeflere yönlendirme, benzer hedeflere yönlendirme, bulunduğu alanı işaretleme gibi gibi bir çok yerde kullanılabilir.</p>
+
+<p>Örneğin, projenizde fotoğraf yükleme alanı var ve fotoğrafın çekildiği yerin nereye ait olduğunu yazdırmak için Geolocation API kullanarak <code class="language-plaintext highlighter-rouge">lat</code> ve <code class="language-plaintext highlighter-rouge">lng</code> koordinat değerlerini çektirebilirsiniz.</p>
+
+<p><br /></p>
+<h1 id="nasıl-kullanılır">Nasıl kullanılır?</h1>
+<p><br />
+Bir buton ekliyorum</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span><span class="nt">&gt;</span>Konum al<span class="nt">&lt;/button&gt;</span>
+</code></pre></div></div>
+<p><br />
+Hata mesajı için yazdırması bir div ekliyorum</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"nudge"</span> <span class="na">style=</span><span class="s">"display:none"</span><span class="nt">&gt;</span>Hata: konum alınamadı.<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p><br />
+<code class="language-plaintext highlighter-rouge">Lat</code> ve <code class="language-plaintext highlighter-rouge">Lng</code> değerlerini yazabilmesi için gereken iki div ekliyorum</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"startLat"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"startLon"</span><span class="nt">&gt;&lt;/div&gt;</span>
+</code></pre></div></div>
+<p><br />
+Ve son olarak javascript kodlarını sayfama dahil ediyorum</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">button</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="dl">'</span><span class="s1">button</span><span class="dl">'</span><span class="p">);</span>
+<span class="nx">button</span><span class="p">.</span><span class="nx">onclick</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">startPos</span><span class="p">;</span>
+  <span class="kd">var</span> <span class="nx">nudge</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">"</span><span class="s2">nudge</span><span class="dl">"</span><span class="p">);</span>
+
+  <span class="kd">var</span> <span class="nx">showNudgeBanner</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">nudge</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">block</span><span class="dl">"</span><span class="p">;</span>
+  <span class="p">};</span>
+
+  <span class="kd">var</span> <span class="nx">hideNudgeBanner</span> <span class="o">=</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">nudge</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">none</span><span class="dl">"</span><span class="p">;</span>
+  <span class="p">};</span>
+
+  <span class="kd">var</span> <span class="nx">nudgeTimeoutId</span> <span class="o">=</span> <span class="nx">setTimeout</span><span class="p">(</span><span class="nx">showNudgeBanner</span><span class="p">,</span> <span class="mi">5000</span><span class="p">);</span>
+
+  <span class="kd">var</span> <span class="nx">geoSuccess</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">position</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">hideNudgeBanner</span><span class="p">();</span>
+    <span class="c1">// We have the location, don't display banner</span>
+    <span class="nx">clearTimeout</span><span class="p">(</span><span class="nx">nudgeTimeoutId</span><span class="p">);</span>
+
+    <span class="c1">// Do magic with location</span>
+    <span class="nx">startPos</span> <span class="o">=</span> <span class="nx">position</span><span class="p">;</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">startLat</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">startPos</span><span class="p">.</span><span class="nx">coords</span><span class="p">.</span><span class="nx">latitude</span><span class="p">;</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">startLon</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">startPos</span><span class="p">.</span><span class="nx">coords</span><span class="p">.</span><span class="nx">longitude</span><span class="p">;</span>
+  <span class="p">};</span>
+  <span class="kd">var</span> <span class="nx">geoError</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">switch</span><span class="p">(</span><span class="nx">error</span><span class="p">.</span><span class="nx">code</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">case</span> <span class="nx">error</span><span class="p">.</span><span class="nx">TIMEOUT</span><span class="p">:</span>
+        <span class="c1">// The user didn't accept the callout</span>
+        <span class="nx">showNudgeBanner</span><span class="p">();</span>
+        <span class="k">break</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">};</span>
+
+  <span class="nb">navigator</span><span class="p">.</span><span class="nx">geolocation</span><span class="p">.</span><span class="nx">getCurrentPosition</span><span class="p">(</span><span class="nx">geoSuccess</span><span class="p">,</span> <span class="nx">geoError</span><span class="p">);</span>
+<span class="p">};</span>
+</code></pre></div></div>
+<p><br />
+<strong>Burada ne oluyor?</strong></p>
+<ol>
+  <li>Konumu çekmek için butona tıklandıktan sonra 5 saniye bekletiyor.</li>
+  <li>Sonuç olumlu dönerse, bekletmeyi devre dışı bırakıp değerleri <code class="language-plaintext highlighter-rouge">#startLat</code> ve <code class="language-plaintext highlighter-rouge">#startLon</code> divlerine yazdırıyor.</li>
+  <li>Ama eğer zaman aşımından sonra olumsuz dönerse <code class="language-plaintext highlighter-rouge">#nudge</code> divi içine hata mesajı yazdırıyor.</li>
+</ol>
+
+<p><br /><br /></p>
+<h1 id="chrome-devtoolsdan-lokasyon-emule-etmek">Chrome DevTools’dan lokasyon emule etmek</h1>
+<p><br />
+<img src="https://i.hizliresim.com/dBENPn.png" alt="" /></p>
+
+<p><strong>Eğer sensör sekmesi sizde kapalıysa;</strong></p>
+
+<p><img src="https://i.hizliresim.com/zMqpa4.png" alt="" /></p>
+:ET
